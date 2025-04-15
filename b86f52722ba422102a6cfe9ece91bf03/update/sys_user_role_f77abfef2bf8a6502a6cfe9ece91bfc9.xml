@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_089_lms.member</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>member</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 18:52:47</sys_created_on>
+        <sys_id>f77abfef2bf8a6502a6cfe9ece91bfc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_089_lms.member</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sys_user_role_f77abfef2bf8a6502a6cfe9ece91bfc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 18:52:47</sys_updated_on>
+    </sys_user_role>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</contains>
+        <role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 19:05:48</sys_created_on>
+        <sys_id>eb0ebb6f2bf4ea10212cfdcc6e91bfe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_089_lms.member.x_089_lms.librarian</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sys_user_role_contains_eb0ebb6f2bf4ea10212cfdcc6e91bfe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 19:05:48</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

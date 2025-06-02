@@ -13,7 +13,7 @@
         <mobile_title>Book Issue Details</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_089_lms_book_issue_detail</name>
-        <order/>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bdfaf4052be52e102a6cfe9ece91bfc6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Book Issue Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
         <sys_update_name>sys_app_module_bdfaf4052be52e102a6cfe9ece91bfc6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-14 17:15:43</sys_updated_on>
+        <sys_updated_on>2025-05-31 21:00:15</sys_updated_on>
         <timeline_page/>
         <title>Book Issue Details</title>
         <uncancelable>false</uncancelable>

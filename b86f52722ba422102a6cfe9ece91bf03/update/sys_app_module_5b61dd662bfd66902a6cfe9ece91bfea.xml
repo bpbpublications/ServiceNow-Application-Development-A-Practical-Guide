@@ -8,12 +8,12 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Books</mobile_title>
+        <mobile_title>Librarian</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_089_lms_book</name>
-        <order>400</order>
+        <name/>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -21,21 +21,21 @@
         <roles>x_089_lms.librarian</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-13 17:56:12</sys_created_on>
+        <sys_created_on>2025-05-31 21:00:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c1aa77ec2bedaa102a6cfe9ece91bfa1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Books</sys_name>
+        <sys_id>5b61dd662bfd66902a6cfe9ece91bfea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Librarian</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
-        <sys_update_name>sys_app_module_c1aa77ec2bedaa102a6cfe9ece91bfa1</sys_update_name>
+        <sys_update_name>sys_app_module_5b61dd662bfd66902a6cfe9ece91bfea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-31 21:00:07</sys_updated_on>
+        <sys_updated_on>2025-05-31 21:00:46</sys_updated_on>
         <timeline_page/>
-        <title>Books</title>
+        <title>Librarian</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

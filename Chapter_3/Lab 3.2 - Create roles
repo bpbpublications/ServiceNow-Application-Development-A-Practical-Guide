@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-04-17 12:33:26">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Create roles in LMS</description>
+<inserted/>
+<name>Lab 3.2: Create roles</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2828bfef2bf8a6502a6cfe9ece91bfaf</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-17 12:33:25</sys_created_on>
+<sys_id>5f677c982b456a502a6cfe9ece91bf0e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-17 12:33:25</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_contains_eb0ebb6f2bf4ea10212cfdcc6e91bfe7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</contains><role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-15 19:05:48</sys_created_on><sys_id>eb0ebb6f2bf4ea10212cfdcc6e91bfe7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms.member.x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_user_role_contains_eb0ebb6f2bf4ea10212cfdcc6e91bfe7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-15 19:05:48</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+<payload_hash>-2033189413</payload_hash>
+<remote_update_set display_value="Lab 3.2: Create roles">5f677c982b456a502a6cfe9ece91bf0e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-17 12:33:25</sys_created_on>
+<sys_id>1f677c982b456a502a6cfe9ece91bf0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1963ad7e0450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-17 12:33:25</sys_updated_on>
+<table/>
+<target_name>x_089_lms.member.x_089_lms.librarian</target_name>
+<type>Contained Role</type>
+<update_domain>global</update_domain>
+<update_guid>230ebb6f6bf4ea10f0ead505a30846ed</update_guid>
+<update_guid_history>230ebb6f6bf4ea10f0ead505a30846ed:-2033189413</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_b86f52722ba422102a6cfe9ece91bf03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created>DS</ide_created><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>Library Management System</name><package_json/><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_089_lms</scope><scoped_administration>false</scoped_administration><short_description>Library Management System</short_description><source>x_089_lms</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-31 18:01:03</sys_created_on><sys_id>b86f52722ba422102a6cfe9ece91bf03</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-17 10:41:41</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.1.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=b86f52722ba422102a6cfe9ece91bf03"/></record_update>]]></payload>
+<payload_hash>748812913</payload_hash>
+<remote_update_set display_value="Lab 3.2: Create roles">5f677c982b456a502a6cfe9ece91bf0e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-17 12:33:25</sys_created_on>
+<sys_id>53677c982b456a502a6cfe9ece91bf0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196435715030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-17 12:33:25</sys_updated_on>
+<table/>
+<target_name>Library Management System</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>b2ddd0982fc16a50d63bf5d7b18de25d</update_guid>
+<update_guid_history>b2ddd0982fc16a50d63bf5d7b18de25d:748812913,f86f5272f8a42210348bfcde919b9707:-313473432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_4c4c7f632b3ca6502a6cfe9ece91bfda</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_089_lms.librarian</name><scoped_admin>false</scoped_admin><suffix>librarian</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-15 18:58:06</sys_created_on><sys_id>4c4c7f632b3ca6502a6cfe9ece91bfda</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_user_role_4c4c7f632b3ca6502a6cfe9ece91bfda</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-15 18:58:06</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>761693417</payload_hash>
+<remote_update_set display_value="Lab 3.2: Create roles">5f677c982b456a502a6cfe9ece91bf0e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-17 12:33:25</sys_created_on>
+<sys_id>5b677c982b456a502a6cfe9ece91bf0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1963ad0d51d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-17 12:33:25</sys_updated_on>
+<table/>
+<target_name>x_089_lms.librarian</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>fe4c3f270b3ca650fdb665a82a6a0a79</update_guid>
+<update_guid_history>fe4c3f270b3ca650fdb665a82a6a0a79:761693417</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_f77abfef2bf8a6502a6cfe9ece91bfc9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_089_lms.member</name><scoped_admin>false</scoped_admin><suffix>member</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-15 18:52:47</sys_created_on><sys_id>f77abfef2bf8a6502a6cfe9ece91bfc9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms.member</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_user_role_f77abfef2bf8a6502a6cfe9ece91bfc9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-15 18:52:47</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1968049701</payload_hash>
+<remote_update_set display_value="Lab 3.2: Create roles">5f677c982b456a502a6cfe9ece91bf0e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-17 12:33:25</sys_created_on>
+<sys_id>df677c982b456a502a6cfe9ece91bf0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1963acbf6820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-17 12:33:25</sys_updated_on>
+<table/>
+<target_name>x_089_lms.member</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>fc1b77e38a3ca65046079a936ed61727</update_guid>
+<update_guid_history>fc1b77e38a3ca65046079a936ed61727:1968049701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

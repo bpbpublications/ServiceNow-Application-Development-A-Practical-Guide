@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-06-10 17:35:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 5</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d10d9e0e2bfde2902a6cfe9ece91bf19</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>246284f12b822e10212cfdcc6e91bf03</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_9777fcd92b696e102a6cfe9ece91bf68</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9777fcd92b696e102a6cfe9ece91bf68" sys_domain="global" table="x_089_lms_book_issue_detail" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>192a1e0b2bfd2210212cfdcc6e91bf3c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>9d2a1e0b2bfd2210212cfdcc6e91bf3c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>152a1e0b2bfd2210212cfdcc6e91bf3d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>992a1e0b2bfd2210212cfdcc6e91bf3d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>book</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>112a1e0b2bfd2210212cfdcc6e91bf3e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:35:06</sys_created_on><sys_id>152a1e0b2bfd2210212cfdcc6e91bf57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="Default view">9777fcd92b696e102a6cfe9ece91bf68</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:35:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_089_lms_book_issue_detail</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-15 11:39:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9777fcd92b696e102a6cfe9ece91bf68</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book_issue_detail</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ui_section_9777fcd92b696e102a6cfe9ece91bf68</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-15 11:39:01</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>156951685</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>206284f12b822e10212cfdcc6e91bf05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197314839320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>Book Issue Detail</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>9d2a1e0b41fd2210c592a018636c0958</update_guid>
+<update_guid_history>9d2a1e0b41fd2210c592a018636c0958:156951685,0e0a5a0be1fd221081810965834c0353:1355727297,8ff91a0bfbfd22109fa6c6a226979b76:-971955060,07f91a0b48fd221030dde428c1c6866c:1477283390</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_88eaac412ba52e102a6cfe9ece91bfdd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management System">cdaa77ec2bedaa102a6cfe9ece91bf8f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Fines</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_089_lms_fine</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_089_lms.librarian</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 16:05:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>88eaac412ba52e102a6cfe9ece91bfdd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Fines</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_88eaac412ba52e102a6cfe9ece91bfdd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-31 21:00:18</sys_updated_on><timeline_page/><title>Fines</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>604050950</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>246284f12b822e10212cfdcc6e91bf04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19728253cf10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>Fines</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>d16151a62bfd66905d1e5298a8e9316e</update_guid>
+<update_guid_history>d16151a62bfd66905d1e5298a8e9316e:604050950,08eaac41e1a52e105f787cfada2d0ddf:353869905</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_5b61dd662bfd66902a6cfe9ece91bfea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management System">cdaa77ec2bedaa102a6cfe9ece91bf8f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Librarian</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_089_lms.librarian</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-31 21:00:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b61dd662bfd66902a6cfe9ece91bfea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Librarian</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_5b61dd662bfd66902a6cfe9ece91bfea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-31 21:00:46</sys_updated_on><timeline_page/><title>Librarian</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1672203160</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>606284f12b822e10212cfdcc6e91bf04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1972825a96f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table/>
+<target_name>Librarian</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>8c8115a683fd66903e0fadc3c5a0bb15</update_guid>
+<update_guid_history>8c8115a683fd66903e0fadc3c5a0bb15:1672203160</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_411fbeda2b3566902a6cfe9ece91bfb0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management System">cdaa77ec2bedaa102a6cfe9ece91bf8f</application><assessment/><device_type/><filter table="x_089_lms_book_issue_detail">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>test hint</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Issued Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_089_lms_book_issue_detail</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_089_lms.member</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-31 10:28:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>411fbeda2b3566902a6cfe9ece91bfb0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Issued Details</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_411fbeda2b3566902a6cfe9ece91bfb0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-31 10:28:38</sys_updated_on><timeline_page/><title>My Issued Details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-147318289</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>686284f12b822e10212cfdcc6e91bf03</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197274ca7850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>My Issued Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>350c5c2a48f966904d02f61e08991af7</update_guid>
+<update_guid_history>350c5c2a48f966904d02f61e08991af7:-147318289,0c4b94e6a0f96690dcd267aeea1d14f9:2053015799,e11b50e606f966907cadc80c1c2db871:-392122286,5eea14267fb96690c59e1ac52db5fcd0:327570351,a8d0cb9ee2356690656e91ade3f4395d:-147318289</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_da746e072b316210212cfdcc6e91bfbf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>available_copies</element><name>x_089_lms_book</name><style>background-color:red;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:19</sys_created_on><sys_id>da746e072b316210212cfdcc6e91bfbf</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_089_lms_book</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ui_style_da746e072b316210212cfdcc6e91bfbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:30:53</sys_updated_on><themed_style/><value>0</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=da746e072b316210212cfdcc6e91bfbf"/></record_update>]]></payload>
+<payload_hash>-302417977</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>686284f12b822e10212cfdcc6e91bf05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197317b4e070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>x_089_lms_book</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_guid>e6e6eac7c6316210c9ed679ebb841431</update_guid>
+<update_guid_history>e6e6eac7c6316210c9ed679ebb841431:-302417977,ab86e2c7cc316210be00f99c4c0faa8d:1686920258,8486a687293162109351c82d81562553:77165575,b76622c7ff3162100c636bb307d12cb1:151540706,2bd566872c316210a8c79d5497dce183:1629126924</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_03e5a6872b316210212cfdcc6e91bf8a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="03e5a6872b316210212cfdcc6e91bf8a" sys_domain="global" table="x_089_lms_book" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>8fe5a6872b316210212cfdcc6e91bf91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>0fe5a6872b316210212cfdcc6e91bf92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>total_copies</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>83e5a6872b316210212cfdcc6e91bf93</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>author</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>0be5a6872b316210212cfdcc6e91bf93</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>8fe5a6872b316210212cfdcc6e91bf93</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>genre</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>07e5a6872b316210212cfdcc6e91bf94</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>issued_copies</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>8be5e6872b316210212cfdcc6e91bf5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>03e5e6872b316210212cfdcc6e91bf5c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>available_copies</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>87e5e6872b316210212cfdcc6e91bf5c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:34</sys_created_on><sys_id>0fe5e6872b316210212cfdcc6e91bf5c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book" sys_domain="global" view="Default view">03e5a6872b316210212cfdcc6e91bf8a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:34</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_089_lms_book</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 16:26:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>03e5a6872b316210212cfdcc6e91bf8a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ui_section_03e5a6872b316210212cfdcc6e91bf8a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 16:26:33</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-275651315</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>6c6284f12b822e10212cfdcc6e91bf04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197317757e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>Book</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>c7e5e68798316210b62fdee08d87405e</update_guid>
+<update_guid_history>c7e5e68798316210b62fdee08d87405e:-275651315,0be5a68707316210808b33d813ed168d:-657415955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_c29fd9762bfdae50212cfdcc6e91bf11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="c29fd9762bfdae50212cfdcc6e91bf11" sys_domain="global" table="x_089_lms_fine" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>4a9fd9762bfdae50212cfdcc6e91bf8f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>8a9fd9762bfdae50212cfdcc6e91bf90</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>issue_detail</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>029fd9762bfdae50212cfdcc6e91bf91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>869fd9762bfdae50212cfdcc6e91bf91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>amount</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>0e9fd9762bfdae50212cfdcc6e91bf91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>paid</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>829fd9762bfdae50212cfdcc6e91bf92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_id>0a9fd9762bfdae50212cfdcc6e91bf92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_fine" sys_domain="global" view="Default view">c29fd9762bfdae50212cfdcc6e91bf11</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_089_lms_fine</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 16:40:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c29fd9762bfdae50212cfdcc6e91bf11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_fine</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ui_section_c29fd9762bfdae50212cfdcc6e91bf11</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 16:40:49</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>864064201</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>a46284f12b822e10212cfdcc6e91bf05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1972c5e09810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>Fine</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>429fd97644fdae503a55e0a3d8c8c394</update_guid>
+<update_guid_history>429fd97644fdae503a55e0a3d8c8c394:864064201,8e9fd976fefdae50e8de5125fb2bc713:134120346</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_c1aa77ec2bedaa102a6cfe9ece91bfa1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management System">cdaa77ec2bedaa102a6cfe9ece91bf8f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Books</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_089_lms_book</name><order>400</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_089_lms.librarian</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 17:56:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c1aa77ec2bedaa102a6cfe9ece91bfa1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Books</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_c1aa77ec2bedaa102a6cfe9ece91bfa1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-31 21:00:07</sys_updated_on><timeline_page/><title>Books</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1529045401</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>a86284f12b822e10212cfdcc6e91bf04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197282513040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>Books</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>725191e628bd66901e3680b515f6620f</update_guid>
+<update_guid_history>725191e628bd66901e3680b515f6620f:-1529045401,685e1f3816212e103891da2e3f111b17:-35568175,85aa77ec65edaa10eb3223ba7be8d5a4:-964602392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_b637e0322bfda6902a6cfe9ece91bfec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b637e0322bfda6902a6cfe9ece91bfec" sys_domain="global" table="x_089_lms_book_issue_detail" version="3" view="ess"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:34:06</sys_created_on><sys_id>72e9960b2bfd2210212cfdcc6e91bfe6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="2c7aa340472302108db14cf8536d4396">b637e0322bfda6902a6cfe9ece91bfec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:34:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:34:06</sys_created_on><sys_id>7ee9960b2bfd2210212cfdcc6e91bfe6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="2c7aa340472302108db14cf8536d4396">b637e0322bfda6902a6cfe9ece91bfec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:34:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:34:06</sys_created_on><sys_id>f2e9960b2bfd2210212cfdcc6e91bfe7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="2c7aa340472302108db14cf8536d4396">b637e0322bfda6902a6cfe9ece91bfec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:34:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>book</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:34:06</sys_created_on><sys_id>7ae9960b2bfd2210212cfdcc6e91bfe7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="2c7aa340472302108db14cf8536d4396">b637e0322bfda6902a6cfe9ece91bfec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:34:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 15:34:06</sys_created_on><sys_id>fee9960b2bfd2210212cfdcc6e91bfe7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_089_lms_book_issue_detail" sys_domain="global" view="2c7aa340472302108db14cf8536d4396">b637e0322bfda6902a6cfe9ece91bfec</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 15:34:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_089_lms_book_issue_detail</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-01 12:34:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b637e0322bfda6902a6cfe9ece91bfec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book_issue_detail</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ui_section_b637e0322bfda6902a6cfe9ece91bfec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-01 12:34:33</sys_updated_on><sys_user/><title>false</title><view display_value="Self Service" name="ess">2c7aa340472302108db14cf8536d4396</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-2009424926</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>e06284f12b822e10212cfdcc6e91bf05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197314751540000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>Book Issue Detail</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>3ee9960b80fd2210f3a1daa4278a3ee9</update_guid>
+<update_guid_history>3ee9960b80fd2210f3a1daa4278a3ee9:-2009424926,f237243278fda6905ac4651e56706582:1510432090</update_guid_history>
+<update_set display_value=""/>
+<view>ess</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_bdfaf4052be52e102a6cfe9ece91bfc6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management System">cdaa77ec2bedaa102a6cfe9ece91bf8f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Book Issue Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_089_lms_book_issue_detail</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_089_lms.librarian</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 17:15:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bdfaf4052be52e102a6cfe9ece91bfc6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Book Issue Details</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_bdfaf4052be52e102a6cfe9ece91bfc6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-31 21:00:15</sys_updated_on><timeline_page/><title>Book Issue Details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-884830442</payload_hash>
+<remote_update_set display_value="Chapter 5">246284f12b822e10212cfdcc6e91bf03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-06-10 17:35:20</sys_created_on>
+<sys_id>e46284f12b822e10212cfdcc6e91bf04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>197282531130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-06-10 17:35:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>Book Issue Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>2c615966fcfd66901bfe02b129fe8acd</update_guid>
+<update_guid_history>2c615966fcfd66901bfe02b129fe8acd:-884830442,7dfaf40524e52e10235880a28fe5edc8:-1157995041</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

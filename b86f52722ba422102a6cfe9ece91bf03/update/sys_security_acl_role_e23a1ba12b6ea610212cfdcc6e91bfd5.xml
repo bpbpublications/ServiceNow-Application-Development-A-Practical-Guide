@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 11:11:18</sys_created_on>
+        <sys_id>e23a1ba12b6ea610212cfdcc6e91bfd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LMSUtil.x_089_lms.member</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_security_acl display_value="LMSUtil">6e3a1ba12b6ea610212cfdcc6e91bfca</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e23a1ba12b6ea610212cfdcc6e91bfd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 11:11:18</sys_updated_on>
+        <sys_user_role display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Get active issues of a user on both on-load and on-change</description>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get active issues of a user</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (newValue === '') { //No need to fetch issue count since there is no user
+      return;
+   }
+    ScriptLoader.getScripts("x_089_lms.LMSUIScript.jsdbx", function (script) { 
+      //Show the book count only if the user is a librarian or viewing their own record
+    if(!x_089_lms.LMSUIScript.isLibrarian() && g_form.getValue() !== g_user.user_id)
+      return;
+
+    if(isLoading) {
+      //Form is loading so we can get the value from g_scratchpad
+      g_form.addInfoMessage("Total active issues for the current user are " + g_scratchpad[g_form.getValue('assigned_to')]);
+      return;
+   }
+   
+   //Fetch the active issue from Ajax
+   getActiveIssueCountOfUserAjax();
+  });
+
+  function callback(response){
+        let answer = response.responseXML.documentElement.getAttribute("answer");
+        g_form.addInfoMessage("Total active issues for the current user are " + answer);
+    }
+	
+   function getActiveIssueCountOfUserAjax(){
+      // Create a new GlideAjax object, specifying the Script Include name
+      let gaLMSUtil = new GlideAjax('LMSUtil');
+
+      // Specify the function to call within the Script Include
+      gaLMSUtil.addParam('sysparm_name', 'getActiveIssueCountOfUser'); //Provide function name from script include
+      gaLMSUtil.addParam('sysparm_userid', newValue); // Provide user's sys_id
+      // Execute the call asynchronously and provide a callback function
+      gaLMSUtil.getXML(callback); // getXML sends the request and calls the callback with the XML response
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 16:37:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e0360f52b62e610212cfdcc6e91bf0d</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Get active issues of a user</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sys_script_client_4e0360f52b62e610212cfdcc6e91bf0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 17:33:39</sys_updated_on>
+        <table>x_089_lms_book_issue_detail</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

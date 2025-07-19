@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-07-19 18:06:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 7</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2db1b4d42b3e2a102a6cfe9ece91bf22</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>3a7f34122b32a2502a6cfe9ece91bfb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_dc1f5b8e2b3a62502a6cfe9ece91bf53</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 11:05:45</sys_created_on><sys_id>dc1f5b8e2b3a62502a6cfe9ece91bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book.x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_book">ddaa77ec2bedaa102a6cfe9ece91bfbd</sys_security_acl><sys_update_name>sys_security_acl_role_dc1f5b8e2b3a62502a6cfe9ece91bf53</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:05:45</sys_updated_on><sys_user_role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>310610858</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>367f34122b32a2502a6cfe9ece91bfb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198225ca2630000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>x_089_lms_book.x_089_lms.librarian</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>373f5b02a27a6250e4d2ae2ac9b858b4</update_guid>
+<update_guid_history>373f5b02a27a6250e4d2ae2ac9b858b4:310610858,b93f5702047a6250e516073f4607aed6:1278128694</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_73be585a2b7e62502a6cfe9ece91bff8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 15:43:19</sys_created_on><sys_id>73be585a2b7e62502a6cfe9ece91bff8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="">fbbe585a2b7e62502a6cfe9ece91bff7</sys_security_acl><sys_update_name>sys_security_acl_role_73be585a2b7e62502a6cfe9ece91bff8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 15:43:19</sys_updated_on><sys_user_role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>253485030</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>3a7f34122b32a2502a6cfe9ece91bfb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198235aa2500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>fbbe585a2b7e62502a6cfe9ece91bff7</table>
+<target_name>.x_089_lms.librarian</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b7be585ab17e6250478b4b88d220bbfb</update_guid>
+<update_guid_history>b7be585ab17e6250478b4b88d220bbfb:253485030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2cc967ca2b7a62502a6cfe9ece91bf35</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_089_lms_book_issue_detail.assigned_to</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 15:43:01</sys_created_on><sys_id>2cc967ca2b7a62502a6cfe9ece91bf35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book_issue_detail.assigned_to</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_security_acl_2cc967ca2b7a62502a6cfe9ece91bf35</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 15:43:01</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>554336043</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>3e7f34122b32a2502a6cfe9ece91bfb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198235a5fab0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail.assigned_to</table>
+<target_name>x_089_lms_book_issue_detail.assigned_to</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>e3ae985ab27e62506cb563874c01e3a3</update_guid>
+<update_guid_history>e3ae985ab27e62506cb563874c01e3a3:554336043</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d8eaec412ba52e102a6cfe9ece91bf38</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 16:05:27</sys_created_on><sys_id>d8eaec412ba52e102a6cfe9ece91bf38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_fine.x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_fine">1ceaec412ba52e102a6cfe9ece91bf25</sys_security_acl><sys_update_name>sys_security_acl_role_d8eaec412ba52e102a6cfe9ece91bf38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-14 16:05:27</sys_updated_on><sys_user_role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1857194100</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>727f34122b32a2502a6cfe9ece91bfb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1982264fdf20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms_fine.x_089_lms.librarian</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>2151a3c2ad7a6250903ff6c303107fcb</update_guid>
+<update_guid_history>2151a3c2ad7a6250903ff6c303107fcb:1857194100,60eaec4142a52e102a57f4e78358bb3d:-1470255360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6841ef822b7a62502a6cfe9ece91bfab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 11:14:40</sys_created_on><sys_id>6841ef822b7a62502a6cfe9ece91bfab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_fine.x_089_lms.member</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_fine">1ceaec412ba52e102a6cfe9ece91bf25</sys_security_acl><sys_update_name>sys_security_acl_role_6841ef822b7a62502a6cfe9ece91bfab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:14:40</sys_updated_on><sys_user_role display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-124991691</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>767f34122b32a2502a6cfe9ece91bfb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1982264adc50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms_fine.x_089_lms.member</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>284163c2da7a6250b15ae284f8b6a930</update_guid>
+<update_guid_history>284163c2da7a6250b15ae284f8b6a930:-124991691</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1ceaec412ba52e102a6cfe9ece91bf25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>deny</decision_type><description>Default access control on x_089_lms_fine</description><local_or_existing>Local</local_or_existing><name>x_089_lms_fine</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 16:05:26</sys_created_on><sys_id>1ceaec412ba52e102a6cfe9ece91bf25</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_089_lms_fine</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_security_acl_1ceaec412ba52e102a6cfe9ece91bf25</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:15:01</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-2106029468</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>7a7f34122b32a2502a6cfe9ece91bfb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1982265008e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms_fine</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7951a3c2c67a6250002916c1e6c758d1</update_guid>
+<update_guid_history>7951a3c2c67a6250002916c1e6c758d1:-2106029468,94eaec415ca52e108a6d90dcce70af37:814907716</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_55aa77ec2bedaa102a6cfe9ece91bfc4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 17:56:13</sys_created_on><sys_id>55aa77ec2bedaa102a6cfe9ece91bfc4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_089_lms_book.x_089_lms.member</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_book">ddaa77ec2bedaa102a6cfe9ece91bfbd</sys_security_acl><sys_update_name>sys_security_acl_role_55aa77ec2bedaa102a6cfe9ece91bfc4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:04:58</sys_updated_on><sys_user_role display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1367510231</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>b27f34122b32a2502a6cfe9ece91bfb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198225bcd920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>x_089_lms_book.x_089_lms.member</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e60f5b8e3a3a6250f3074d84f3ea59c1</update_guid>
+<update_guid_history>e60f5b8e3a3a6250f3074d84f3ea59c1:-1367510231,1b1e573874212e1034efa309d57e79dc:1278128694,d9aa77ec1eedaa10e8af1279e53f0dc8:2052217593</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_18eaac412ba52e102a6cfe9ece91bff4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default access control on x_089_lms_fine&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_089_lms_fine&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[gs.hasRole('x_089_lms.librarian') || current.issue_detail.assigned_to.toString() === gs.getUserID();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-14 16:05:26&lt;/sys_created_on&gt;&lt;sys_id&gt;18eaac412ba52e102a6cfe9ece91bff4&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_089_lms_fine&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_18eaac412ba52e102a6cfe9ece91bff4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-19 15:58:52&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;18eaac412ba52e102a6cfe9ece91bff4&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-19 15:45:31&lt;/sys_created_on&gt;&lt;sys_id&gt;c84f981e2bfa62502a6cfe9ece91bfb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-19 15:45:31&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>959068810</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>b67f34122b32a2502a6cfe9ece91bfb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1982368e1d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms_fine</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7342209edd7e6250c3441f0f4d1a454a</update_guid>
+<update_guid_history>7342209edd7e6250c3441f0f4d1a454a:959068810,bfd0a41e4d7e6250c977a87a11a97974:-810551439,dc4f949ab77e625008ee5a60f56c4c59:139524656,58eaec417da52e106a84a9edf6167012:-2008815058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_60a361502b326a102a6cfe9ece91bf95</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_089_lms_book_issue_detail&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Visibility of issue records&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	if(gs.hasRole('x_089_lms.librarian')) //Librarians can see all the records
+		return;
+
+	current.addQuery('assigned_to', gs.getUserID()); //Members can see only their records
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-13 15:41:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;60a361502b326a102a6cfe9ece91bf95&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Visibility of issue records&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_60a361502b326a102a6cfe9ece91bf95&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-13 16:08:29&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=60a361502b326a102a6cfe9ece91bf95"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;60a361502b326a102a6cfe9ece91bf95&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-13 15:41:02&lt;/sys_created_on&gt;&lt;sys_id&gt;ccb4ad502b326a102a6cfe9ece91bf33&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-13 15:41:02&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2013209385</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>be7f34122b32a2502a6cfe9ece91bfb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198048b85920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>Visibility of issue records</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>46fa2d988b326a10a328e8107f0045f4</update_guid>
+<update_guid_history>46fa2d988b326a10a328e8107f0045f4:2013209385,b9eae99829326a1014990ff14585ab7d:-1785150761,8fba29986a326a103f63d3b32c07e41f:-43222319,c9aaa59849326a10b5d27424e110977a:2013209385,090ae158b3326a10a35fe4fd7d9e3b53:-430218394,dd16611425326a101162121d218e1d71:1933910709,83b56dd00c326a10efe4565a06a9231a:-430218394,1175ad9046326a104005ae2ce51d1cc2:-203761131,50b4a15096326a10d6e1e6bf4cd3849d:1703833534</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d1c9234e2b7a62502a6cfe9ece91bf0f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 15:43:01</sys_created_on><sys_id>d1c9234e2b7a62502a6cfe9ece91bf0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_089_lms.librarian</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="">2cc967ca2b7a62502a6cfe9ece91bf35</sys_security_acl><sys_update_name>sys_security_acl_role_d1c9234e2b7a62502a6cfe9ece91bf0f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 15:43:01</sys_updated_on><sys_user_role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>180015393</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>be7f34122b32a2502a6cfe9ece91bfb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198235a5f3b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>2cc967ca2b7a62502a6cfe9ece91bf35</table>
+<target_name>.x_089_lms.librarian</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e7ae985a7f7e625081f22e97c7e74a9d</update_guid>
+<update_guid_history>e7ae985a7f7e625081f22e97c7e74a9d:180015393</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_f1fa38052be52e102a6cfe9ece91bf14</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 17:15:43</sys_created_on><sys_id>f1fa38052be52e102a6cfe9ece91bf14</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_089_lms_book_issue_detail.x_089_lms.member</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_book_issue_detail">f9fa38052be52e102a6cfe9ece91bf0d</sys_security_acl><sys_update_name>sys_security_acl_role_f1fa38052be52e102a6cfe9ece91bf14</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:11:43</sys_updated_on><sys_user_role display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>823641669</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>f67f34122b32a2502a6cfe9ece91bfb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1982261fd190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>x_089_lms_book_issue_detail.x_089_lms.member</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6190a382327a6250502b95605c3aad55</update_guid>
+<update_guid_history>6190a382327a6250502b95605c3aad55:823641669,4afa38054ce52e1013eb9db2ab344e18:-370666114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9ceaec412ba52e102a6cfe9ece91bf13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-14 16:05:26</sys_created_on><sys_id>9ceaec412ba52e102a6cfe9ece91bf13</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_089_lms_fine.x_089_lms.member</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_security_acl display_value="x_089_lms_fine">18eaac412ba52e102a6cfe9ece91bff4</sys_security_acl><sys_update_name>sys_security_acl_role_9ceaec412ba52e102a6cfe9ece91bf13</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 11:11:51</sys_updated_on><sys_user_role display_value="x_089_lms.member" name="x_089_lms.member">f77abfef2bf8a6502a6cfe9ece91bfc9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1176116945</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>fa7f34122b32a2502a6cfe9ece91bfb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198226219310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms_fine.x_089_lms.member</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9f90e3823c7a6250c2f2db2b2cd2a6b1</update_guid>
+<update_guid_history>9f90e3823c7a6250c2f2db2b2cd2a6b1:1176116945,14eaec41ffa52e10fa1e8581bea00318:1385816476</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_fbbe585a2b7e62502a6cfe9ece91bff7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_089_lms_book_issue_detail.state</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 15:43:19</sys_created_on><sys_id>fbbe585a2b7e62502a6cfe9ece91bff7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_089_lms_book_issue_detail.state</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_security_acl_fbbe585a2b7e62502a6cfe9ece91bff7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 15:43:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1223806859</payload_hash>
+<remote_update_set display_value="Chapter 7">3a7f34122b32a2502a6cfe9ece91bfb5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-07-19 18:06:20</sys_created_on>
+<sys_id>fe7f34122b32a2502a6cfe9ece91bfb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198235aa3d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-07-19 18:06:20</sys_updated_on>
+<table>x_089_lms_book_issue_detail.state</table>
+<target_name>x_089_lms_book_issue_detail.state</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>37be1c5acd7e6250caa4e882df6da02f</update_guid>
+<update_guid_history>37be1c5acd7e6250caa4e882df6da02f:1223806859</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

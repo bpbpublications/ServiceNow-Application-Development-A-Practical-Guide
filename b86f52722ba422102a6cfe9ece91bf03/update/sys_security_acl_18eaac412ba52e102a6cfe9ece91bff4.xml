@@ -2,7 +2,7 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
@@ -10,20 +10,31 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_089_lms_fine</name>
         <operation display_value="read">read</operation>
-        <script/>
+        <script><![CDATA[gs.hasRole('x_089_lms.librarian') || current.issue_detail.assigned_to.toString() === gs.getUserID();]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-14 16:05:26</sys_created_on>
         <sys_id>18eaac412ba52e102a6cfe9ece91bff4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_089_lms_fine</sys_name>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
         <sys_update_name>sys_security_acl_18eaac412ba52e102a6cfe9ece91bff4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-14 16:05:26</sys_updated_on>
+        <sys_updated_on>2025-07-19 15:58:52</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>18eaac412ba52e102a6cfe9ece91bff4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 15:45:31</sys_created_on>
+        <sys_id>c84f981e2bfa62502a6cfe9ece91bfb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 15:45:31</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_089_lms.book_returned</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>book_returned</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 11:59:52</sys_created_on>
+        <sys_id>1aeafbd52b23e610212cfdcc6e91bf18</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_089_lms.book_returned</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sysevent_register_1aeafbd52b23e610212cfdcc6e91bf18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 12:02:03</sys_updated_on>
+        <table>x_089_lms_fine</table>
+    </sysevent_register>
+</record_update>

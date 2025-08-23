@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_089_lms.FineCalculator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>FineCalculator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var FineCalculator = Class.create();
+FineCalculator.prototype = {
+  initialize: function() {},
+
+  calculateFine: function() {
+    var DAILY_FINE = 5;
+
+    // Find overdue issue not returned
+    var loan = new GlideRecord('x_089_lms_book_issue_detail'); //Please give the exact name of the Book Issue Detail in your instance
+    loan.addQuery('active', true);
+    loan.addQuery('due_date', '<=', gs.nowDateTime());
+    loan.query();
+
+    while (loan.next()) {
+      var daysOver = this._daysOverdue(loan.due_date);
+      if (daysOver <= 0) continue;
+
+      // Upsert fine record per loan
+      var fine = new GlideRecord('x_089_lms_fine'); //Please give the exact name of the Book Issue Detail in your instance
+      fine.addQuery('issue_detail', loan.getValue('sys_id'));
+      fine.query();
+
+      var amount = daysOver * DAILY_FINE;
+
+      if (fine.next()) {
+        //Update existing fine
+        fine.setValue('amount', amount);
+        fine.update();
+      } else {
+        //Create new fine record
+        fine.initialize();
+        fine.setValue('issue_detail', loan.getValue('sys_id'));
+        fine.setValue('amount', amount);
+        fine.insert();
+      }
+    }
+  },
+
+  _daysOverdue: function(dueDate) {
+    // Create a GlideDateTime object for the given date string
+    var dueDateObject = new GlideDateTime(dueDate.split()[0] + ' 00:00:00');
+
+    // Get the current GlideDateTime
+    var now = new GlideDateTime();
+
+    //Get differnce in milliseconds
+    var duration = GlideDateTime.subtract(dueDateObject, now); 
+
+    // Get the difference in days
+    var days = Math.floor(duration.getNumericValue() / (24 * 60 * 60 * 1000));
+
+    return days;
+  },
+
+  type: 'FineCalculator'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 16:29:20</sys_created_on>
+        <sys_id>d7d8f4a92b27e610212cfdcc6e91bfd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FineCalculator</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sys_script_include_d7d8f4a92b27e610212cfdcc6e91bfd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 16:29:20</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d7d8f4a92b27e610212cfdcc6e91bfd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 16:29:19</sys_created_on>
+        <sys_id>bee834692b27e610212cfdcc6e91bf03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 16:29:19</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

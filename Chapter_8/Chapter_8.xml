@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-09-06 12:38:11">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 8</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8eda7bd52b23e610212cfdcc6e91bf90</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-06 12:38:11</sys_created_on>
+<sys_id>a54a40822bf7ee10212cfdcc6e91bf38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-06 12:38:11</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_d7d8f4a92b27e610212cfdcc6e91bfd1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_089_lms.FineCalculator&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;FineCalculator&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var FineCalculator = Class.create();
+FineCalculator.prototype = {
+  initialize: function() {},
+
+  calculateFine: function() {
+    var DAILY_FINE = 5;
+
+    // Find overdue issue not returned
+    var loan = new GlideRecord('x_089_lms_book_issue_detail'); //Please give the exact name of the Book Issue Detail in your instance
+    loan.addQuery('active', true);
+    loan.addQuery('due_date', '&lt;=', gs.nowDateTime());
+    loan.query();
+
+    while (loan.next()) {
+      var daysOver = this._daysOverdue(loan.due_date);
+      if (daysOver &lt;= 0) continue;
+
+      // Upsert fine record per loan
+      var fine = new GlideRecord('x_089_lms_fine'); //Please give the exact name of the Book Issue Detail in your instance
+      fine.addQuery('issue_detail', loan.getValue('sys_id'));
+      fine.query();
+
+      var amount = daysOver * DAILY_FINE;
+
+      if (fine.next()) {
+        //Update existing fine
+        fine.setValue('amount', amount);
+        fine.update();
+      } else {
+        //Create new fine record
+        fine.initialize();
+        fine.setValue('issue_detail', loan.getValue('sys_id'));
+        fine.setValue('amount', amount);
+        fine.insert();
+      }
+    }
+  },
+
+  _daysOverdue: function(dueDate) {
+    // Create a GlideDateTime object for the given date string
+    var dueDateObject = new GlideDateTime(dueDate.split()[0] + ' 00:00:00');
+
+    // Get the current GlideDateTime
+    var now = new GlideDateTime();
+
+    //Get differnce in milliseconds
+    var duration = GlideDateTime.subtract(dueDateObject, now); 
+
+    // Get the difference in days
+    var days = Math.floor(duration.getNumericValue() / (24 * 60 * 60 * 1000));
+
+    return days;
+  },
+
+  type: 'FineCalculator'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 16:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d7d8f4a92b27e610212cfdcc6e91bfd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;FineCalculator&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d7d8f4a92b27e610212cfdcc6e91bfd1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 16:29:20&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d7d8f4a92b27e610212cfdcc6e91bfd1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 16:29:19&lt;/sys_created_on&gt;&lt;sys_id&gt;bee834692b27e610212cfdcc6e91bf03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 16:29:19&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>365936873</payload_hash>
+<remote_update_set display_value="Chapter 8">a54a40822bf7ee10212cfdcc6e91bf38</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-06 12:38:11</sys_created_on>
+<sys_id>694a40822bf7ee10212cfdcc6e91bf39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198d7c358770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-06 12:38:11</sys_updated_on>
+<table/>
+<target_name>FineCalculator</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>4fe838a98127e6103f4fc9439f75e0d2</update_guid>
+<update_guid_history>4fe838a98127e6103f4fc9439f75e0d2:365936873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_d9bf3b1d2b23e610212cfdcc6e91bf82</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;26000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;on_book_returned&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Book Issue Detail Record","reference":"x_089_lms_book_issue_detail","reference_display":"Book Issue Detail","type":"reference","base_type":"reference","usedInstances":{"aa7b51e1-4dfc-4c2b-b519-6fcb30ad68ce":["record"]},"attributes":{}},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Book Issue Detail Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_089_lms_book_issue_detail","column_name":"assigned_to","usedInstances":{}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;On book returned&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:19:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;On book returned&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=d9bf3b1d2b23e610212cfdcc6e91bf82^sys_idNOT IN9dbf3b1d2b23e610212cfdcc6e91bf84"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/id&gt;&lt;name&gt;On book returned&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:19:21&lt;/sys_created_on&gt;&lt;sys_id&gt;9dbf3b1d2b23e610212cfdcc6e91bf84&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:19:21&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9dbf3b1d2b23e610212cfdcc6e91bf84"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=d9bf3b1d2b23e610212cfdcc6e91bf82^sys_idNOT IN0fe700612b63e610212cfdcc6e91bfc5,47e748652b63e610212cfdcc6e91bf71,47e748652b63e610212cfdcc6e91bf74"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="On book returned"&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model&gt;&lt;model_id&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;0fe700612b63e610212cfdcc6e91bfc5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0fe700612b63e610212cfdcc6e91bfc5"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="On book returned"&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model&gt;&lt;model_id&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;47e748652b63e610212cfdcc6e91bf71&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=47e748652b63e610212cfdcc6e91bf71"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="On book returned"&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model&gt;&lt;model_id&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;47e748652b63e610212cfdcc6e91bf74&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=47e748652b63e610212cfdcc6e91bf74"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d9bf3b1d2b23e610212cfdcc6e91bf82^sys_idNOT IN83e748652b63e610212cfdcc6e91bfa9"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="On book returned"&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;83e748652b63e610212cfdcc6e91bfa9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=d9bf3b1d2b23e610212cfdcc6e91bf82^sys_idNOT IN0be748652b63e610212cfdcc6e91bfab"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Fire Event"&gt;80a30edeff30311077a95dac793bf19b&lt;/action_type&gt;&lt;action_type_parent display_value="Fire Event"&gt;15e10e5eff30311077a95dac793bf11e&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="On book returned"&gt;d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;0be748652b63e610212cfdcc6e91bfab&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;ui_id&gt;aa7b51e1-4dfc-4c2b-b519-6fcb30ad68ce&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+2WW2/bNhTHv4qgZ8uQKOrmtw5uhwBbOzRtX4pCoMhDmxt1KUW58YJ895G6+BI3TuAmGzbsJQCpQ/J/zvn/cvz51hXMXbgpJaEPDDgP/TAI/CQhWcQITbKw4EEG7sytSAkmEjZQ6bxfzNwNkZ3dDAgQXrAIFSiEOPBRgChnlMaQBeZ8akKZaBtJtp/GEze5n2a5LNt5Udd/5Ap0pypgJpCuhWQKKnfx+cvMbYgyT2lQ7uL23ie9bSCXpABp7nsPHMwXalU9NaPp7Gub0gMZ2kfMnjq4vlbMyglmLtxoqJhRveBEtjBzS1Ixomu1dRdadWZDAWHvKrndRayFeWrhLqEVCphzvW01lE6vwNFrop12XXeSOQU43Ea49tKbVvxpVIRodiBk4bbbdtCqYCVaW6OD7/lY8Ck/530fpIgWddWXuRYU3jX9cuHaVEkhH7qW1rIrq7dDgWw3gZNO6qmbZqdrzZPQ2HrYDMd0+fW6/rbrzRtR9aUbP8qaErlbEa2VKDoNrW11Jz6Yyv/yne6ChNKqK0nTiGqVN6reiP5ao7Kcr6RZzLmsvxk5rVhVc0JtjnPTGDJ/Y/aX/fYnooRN+FdzTZ/i8OK9XnfiYyW+dnBlLQXgh8AS7iUEYw/jqPCKAoce9aMsIz5CPEDuXd+D/GtnUxtKNRYlHwptAlqqRKNfGV0bGPO/m40kUv+cbwne+1QBNVY8oPD29mNjsgSWB3PaKZODvrs7Re9ixpY17WzpnavlRNkT1O4JHeXelz8ixsbbc8H2kKHngOxna4nheacufgeqHa7q0vAGDgzk9dY/g9oDZJ3l6BJshoSeiZrjfr04N8cNPCKHB5REAQo9FCbUwxlNvRSD+WP4QThLKaLxo+QMdX0Mn7P/9kmy99/U8839iZT3E0m0bWdbo4mQpwz9ZEKcKxviLKeQy6D6YGU4b4dp89QUjg6fpjQS1S+nQTYCFZ4Hatw5IWoHRur/M2A87zw5KvqLg3HUhyMuMoQxj9PUKxBhHk5jbCaKn3pJgH1kLIDCKPzhicLSs34q9v4xni2DAySecXZcm2ZUq8niT5A0HfxtesAJToWORm+ny0eT48tMPo6NV9XW6Ssw/CBT0NZyA62ja4c4u6cOiPD/E0zsOvTiPOxqeMRCHPmZ7yPusTgFDwcceSTIUg+hsAhYTDGKsx9nAZ81Hj+2GPpbWHhc0ikL6FToAyxE/7Pw72OB4xiHNEk8bJxhfi+lZi4kEHlhxHiCWULjNLiYhS9/AZBmlcb1DwAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82^sys_idNOT IN07e748652b63e610212cfdcc6e91bf70,47e748652b63e610212cfdcc6e91bf76,8be748652b63e610212cfdcc6e91bf73"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;07e748652b63e610212cfdcc6e91bf70&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;47e748652b63e610212cfdcc6e91bf76&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 12:55:15&lt;/sys_created_on&gt;&lt;sys_id&gt;8be748652b63e610212cfdcc6e91bf73&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 12:55:15&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=d9bf3b1d2b23e610212cfdcc6e91bf82"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1792885166</payload_hash>
+<remote_update_set display_value="Chapter 8">a54a40822bf7ee10212cfdcc6e91bf38</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-06 12:38:11</sys_created_on>
+<sys_id>a54a40822bf7ee10212cfdcc6e91bf39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198d6ff5ab90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-06 12:38:11</sys_updated_on>
+<table/>
+<target_name>On book returned</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>d3e74865e663e610a9fae8d243d831b9</update_guid>
+<update_guid_history>d3e74865e663e610a9fae8d243d831b9:1792885166,59bf3b1d1f23e6103647c83862627e89:-1205447499</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_1aeafbd52b23e610212cfdcc6e91bf18</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description/><event_name>x_089_lms.book_returned</event_name><fired_by/><priority>100</priority><queue/><suffix>book_returned</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-23 11:59:52</sys_created_on><sys_id>1aeafbd52b23e610212cfdcc6e91bf18</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_089_lms.book_returned</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sysevent_register_1aeafbd52b23e610212cfdcc6e91bf18</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-23 12:02:03</sys_updated_on><table>x_089_lms_fine</table></sysevent_register></record_update>]]></payload>
+<payload_hash>-1973867239</payload_hash>
+<remote_update_set display_value="Chapter 8">a54a40822bf7ee10212cfdcc6e91bf38</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-06 12:38:11</sys_created_on>
+<sys_id>e14a40822bf7ee10212cfdcc6e91bf39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198d6cea3070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-06 12:38:11</sys_updated_on>
+<table>x_089_lms_fine</table>
+<target_name>x_089_lms.book_returned</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>3fbbb719e023e610557b31caca02d270</update_guid>
+<update_guid_history>3fbbb719e023e610557b31caca02d270:-1973867239,3a9b33197323e6105c18f4c9462fc1ff:1050084744,ff3bfbd57623e6108271034a5e2b3f60:481505610</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_6828cc652b63e610212cfdcc6e91bf36</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_089_lms_book_issue_detail&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;x_089_lms.book_returned&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hi: ${assigned_to.first_name}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;We have recorded the return of &lt;strong&gt;${book.title}&lt;/strong&gt; for loan ${number} on return: ${closed_at}.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Thank you&lt;/p&gt;
+&lt;p&gt;ServiceNow Library&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Book return confirmation&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assigned_to&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject/&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 15:09:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6828cc652b63e610212cfdcc6e91bf36&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Book return confirmation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_6828cc652b63e610212cfdcc6e91bf36&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 15:15:14&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6828cc652b63e610212cfdcc6e91bf36&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-23 15:14:42&lt;/sys_created_on&gt;&lt;sys_id&gt;75d7e8e52be3e610212cfdcc6e91bf8b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-23 15:14:42&lt;/sys_updated_on&gt;&lt;table&gt;sysevent_email_action&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2116345219</payload_hash>
+<remote_update_set display_value="Chapter 8">a54a40822bf7ee10212cfdcc6e91bf38</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-06 12:38:11</sys_created_on>
+<sys_id>e94a40822bf7ee10212cfdcc6e91bf38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198d77f80520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-06 12:38:11</sys_updated_on>
+<table>x_089_lms_book_issue_detail</table>
+<target_name>Book return confirmation</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>a5f72029bde3e6104fd97f533e41e959</update_guid>
+<update_guid_history>a5f72029bde3e6104fd97f533e41e959:2116345219,0ad7e8e5a4e3e61051360bd0f4e604b1:-2067236309,d6a668a55ee3e6105de6837abce3474e:-1179850280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

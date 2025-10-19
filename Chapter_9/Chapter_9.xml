@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-19 10:22:47">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 9</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e4ea40822bf7ee10212cfdcc6e91bf3c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>e5a7c5f72bacfa102a6cfe9ece91bff4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_d995a0ca2b3bee10212cfdcc6e91bf81</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the following values on the form:
+Genre = Children
+and Title = My story book</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:39:42</sys_created_on><sys_id>d995a0ca2b3bee10212cfdcc6e91bf81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_atf_step_d995a0ca2b3bee10212cfdcc6e91bf81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:39:42</sys_updated_on><table>x_089_lms_book</table><test display_value="Librarian can add book">a761280a2b3bee10212cfdcc6e91bfc8</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=d995a0ca2b3bee10212cfdcc6e91bf81"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d995a0ca2b3bee10212cfdcc6e91bf81</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:39:42</sys_created_on><sys_id>31166c0e2b3bee10212cfdcc6e91bff3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:39:42</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d995a0ca2b3bee10212cfdcc6e91bf81</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:39:42</sys_created_on><sys_id>b5166c0e2b3bee10212cfdcc6e91bff3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:39:42</sys_updated_on><value>genre=children^title=My story book^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d995a0ca2b3bee10212cfdcc6e91bf81</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:39:42</sys_created_on><sys_id>f1166c0e2b3bee10212cfdcc6e91bff3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:39:42</sys_updated_on><value>x_089_lms_book</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=d995a0ca2b3bee10212cfdcc6e91bf81"/></record_update>]]></payload>
+<payload_hash>-1975897495</payload_hash>
+<remote_update_set display_value="Chapter 9">e5a7c5f72bacfa102a6cfe9ece91bff4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>2da7c9f72bacfa102a6cfe9ece91bf36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1991f7801670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>Set Field Values</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>fd166c0e9b3bee106a937b9ce054fcf4</update_guid>
+<update_guid_history>fd166c0e9b3bee106a937b9ce054fcf4:-1975897495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_30a4684a2b3bee10212cfdcc6e91bfd6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open a new 'Book' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:35:48</sys_created_on><sys_id>30a4684a2b3bee10212cfdcc6e91bfd6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_atf_step_30a4684a2b3bee10212cfdcc6e91bfd6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:35:48</sys_updated_on><table>x_089_lms_book</table><test display_value="Librarian can add book">a761280a2b3bee10212cfdcc6e91bfc8</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=30a4684a2b3bee10212cfdcc6e91bfd6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>30a4684a2b3bee10212cfdcc6e91bfd6</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:35:48</sys_created_on><sys_id>3435200e2b3bee10212cfdcc6e91bf97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:35:48</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>30a4684a2b3bee10212cfdcc6e91bfd6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:35:48</sys_created_on><sys_id>7c35200e2b3bee10212cfdcc6e91bf97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:35:48</sys_updated_on><value>x_089_lms_book</value><variable display_value="Table">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>30a4684a2b3bee10212cfdcc6e91bfd6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:35:48</sys_created_on><sys_id>b835200e2b3bee10212cfdcc6e91bf97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:35:48</sys_updated_on><value>record</value><variable display_value="Record path">3a662f60a3023110571967d1361e6134</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>30a4684a2b3bee10212cfdcc6e91bfd6</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:35:48</sys_created_on><sys_id>f435200e2b3bee10212cfdcc6e91bf97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:35:48</sys_updated_on><value/><variable display_value="View">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=30a4684a2b3bee10212cfdcc6e91bfd6"/></record_update>]]></payload>
+<payload_hash>85730038</payload_hash>
+<remote_update_set display_value="Chapter 9">e5a7c5f72bacfa102a6cfe9ece91bff4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>61a7c9f72bacfa102a6cfe9ece91bf36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1991f74706d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<table>x_089_lms_book</table>
+<target_name>Open a New Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>b435200ea13bee10b0c6fa17dcbd6e99</update_guid>
+<update_guid_history>b435200ea13bee10b0c6fa17dcbd6e99:85730038</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_c726a40e2b3bee10212cfdcc6e91bfc7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:41:35</sys_created_on><sys_id>c726a40e2b3bee10212cfdcc6e91bfc7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_atf_step_c726a40e2b3bee10212cfdcc6e91bfc7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:41:35</sys_updated_on><table/><test display_value="Librarian can add book">a761280a2b3bee10212cfdcc6e91bfc8</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c726a40e2b3bee10212cfdcc6e91bfc7"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c726a40e2b3bee10212cfdcc6e91bfc7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:41:35</sys_created_on><sys_id>1986204e2b3bee10212cfdcc6e91bf40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:41:35</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert type">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c726a40e2b3bee10212cfdcc6e91bfc7</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:41:35</sys_created_on><sys_id>d986204e2b3bee10212cfdcc6e91bf40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:41:35</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">ae8b91c9ffa333008d3f5d9ad53bf1ba</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-2131539740</payload_hash>
+<remote_update_set display_value="Chapter 9">e5a7c5f72bacfa102a6cfe9ece91bff4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>69a7c9f72bacfa102a6cfe9ece91bf36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1991f79ba6a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<table/>
+<target_name>Submit a Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>9186204e0d3bee10ab51ea9279ac4842</update_guid>
+<update_guid_history>9186204e0d3bee10ab51ea9279ac4842:-2131539740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_a761280a2b3bee10212cfdcc6e91bfc8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Librarian can add book</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:20:20</sys_created_on><sys_id>a761280a2b3bee10212cfdcc6e91bfc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Librarian can add book</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_atf_test_a761280a2b3bee10212cfdcc6e91bfc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:20:20</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=a761280a2b3bee10212cfdcc6e91bfc8"/></record_update>]]></payload>
+<payload_hash>-1562912055</payload_hash>
+<remote_update_set display_value="Chapter 9">e5a7c5f72bacfa102a6cfe9ece91bff4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>a1a7c9f72bacfa102a6cfe9ece91bf37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1991f6646880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<table/>
+<target_name>Librarian can add book</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>caa12c0a783bee108d1898e7440fd15e</update_guid>
+<update_guid_history>caa12c0a783bee108d1898e7440fd15e:-1562912055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_e7722c0a2b3bee10212cfdcc6e91bf62</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: Librarian User 1 with user Id: librarian.user1
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:31:40</sys_created_on><sys_id>e7722c0a2b3bee10212cfdcc6e91bf62</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_atf_step_e7722c0a2b3bee10212cfdcc6e91bf62</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:31:40</sys_updated_on><table/><test display_value="Librarian can add book">a761280a2b3bee10212cfdcc6e91bfc8</test><timeout/><warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e7722c0a2b3bee10212cfdcc6e91bf62"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e7722c0a2b3bee10212cfdcc6e91bf62</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-06 14:31:40</sys_created_on><sys_id>0c44684a2b3bee10212cfdcc6e91bfc1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-06 14:31:40</sys_updated_on><value>863576a62b7c62502a6cfe9ece91bfc6</value><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=e7722c0a2b3bee10212cfdcc6e91bf62"/></record_update>]]></payload>
+<payload_hash>128542211</payload_hash>
+<remote_update_set display_value="Chapter 9">e5a7c5f72bacfa102a6cfe9ece91bff4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-19 10:22:46</sys_created_on>
+<sys_id>eda7c9f72bacfa102a6cfe9ece91bf36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1991f70a6f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-19 10:22:46</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>8844a0ca0c3bee10f1fab4366ca05e65</update_guid>
+<update_guid_history>8844a0ca0c3bee10f1fab4366ca05e65:128542211</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

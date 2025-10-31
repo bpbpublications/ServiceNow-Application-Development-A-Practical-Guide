@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-31 16:04:38">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 11</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>afc2c8392b703250212cfdcc6e91bfaa</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>46f8c83b2b7c7e502a6cfe9ece91bf3c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_book_title</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_book_title" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Book Title</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Book Title</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_book_title</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>43</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>41c98cfd2b703250212cfdcc6e91bff8</sys_id><sys_name>Book Title</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_book_title</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-37441632</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>02f8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bc1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Book Title</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>19c9ccfd6270325097169dec0cff082f</update_guid>
+<update_guid_history>19c9ccfd6270325097169dec0cff082f:-37441632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_85c98cfd2b703250212cfdcc6e91bf2e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Book Stage</label><live_feed_enabled>false</live_feed_enabled><name>x_089_lms_book_stage</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">10ca27c0472302108db14cf8536d4312</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:16</sys_created_on><sys_id>85c98cfd2b703250212cfdcc6e91bf2e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lms Book Stage</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_db_object_85c98cfd2b703250212cfdcc6e91bf2e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:16</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>767820332</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>06f8c83b2b7c7e502a6cfe9ece91bf3d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bbd70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>91c9ccfd397032500682cb5ffe13502a</update_guid>
+<update_guid_history>91c9ccfd397032500682cb5ffe13502a:767820332</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_d82bccfd2b703250212cfdcc6e91bf20</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;Only Mapped Fields&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Book load&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_089_lms_book_stage&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-25 11:09:16&lt;/sys_created_on&gt;&lt;sys_id&gt;d82bccfd2b703250212cfdcc6e91bf20&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Book load&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_d82bccfd2b703250212cfdcc6e91bf20&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-25 11:09:16&lt;/sys_updated_on&gt;&lt;target_table&gt;x_089_lms_book&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1174244407</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>0af8c83b2b7c7e502a6cfe9ece91bf3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b0ef4cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>Book load</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>f4db0471c5b03250134b024288b6372d</update_guid>
+<update_guid_history>f4db0471c5b03250134b024288b6372d:1174244407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_c1c9ccfd2b703250212cfdcc6e91bf02</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>c1c9ccfd2b703250212cfdcc6e91bf02</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: scripting</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_scope_privilege_c1c9ccfd2b703250212cfdcc6e91bf02</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><target_name>Glide API: scripting</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1051682737</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>0ef8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06badf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>Glide API: scripting</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>15c9ccfd21703250e355a60f979f1e04</update_guid>
+<update_guid_history>15c9ccfd21703250e355a60f979f1e04:-1051682737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_acc98cfd2b703250212cfdcc6e91bf02</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_alias/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:acc98cfd2b703250212cfdcc6e91bf02/book_sample_data.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
+
+ // Add your code here to insert data to import_set_table 
+
+})(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]&gt;&lt;/data_loader&gt;&lt;data_stream_action/&gt;&lt;data_stream_action_inputs/&gt;&lt;data_stream_connection_alias/&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;book_sample_data.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;x_089_lms_book_stage&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;book_sample_data.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-25 11:00:14&lt;/sys_created_on&gt;&lt;sys_id&gt;acc98cfd2b703250212cfdcc6e91bf02&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;book_sample_data.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_acc98cfd2b703250212cfdcc6e91bf02&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-25 11:00:17&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=acc98cfd2b703250212cfdcc6e91bf02"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1046109549</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>42f8c83b2b7c7e502a6cfe9ece91bf3d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bd880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>book_sample_data.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>55c9ccfd527032507ded91bd77094350</update_guid>
+<update_guid_history>55c9ccfd527032507ded91bd77094350:-1046109549,99c9ccfd71703250c6b4e45e08ce9c4e:160074770</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_df049cfd2b703250212cfdcc6e91bf1f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Book load"&gt;d82bccfd2b703250212cfdcc6e91bf20&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_book_title&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_089_lms_book_stage&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-25 11:45:32&lt;/sys_created_on&gt;&lt;sys_id&gt;df049cfd2b703250212cfdcc6e91bf1f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_book_title&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_df049cfd2b703250212cfdcc6e91bf1f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-25 11:45:32&lt;/sys_updated_on&gt;&lt;target_field&gt;title&lt;/target_field&gt;&lt;target_table&gt;x_089_lms_book&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1099740867</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>46f8c83b2b7c7e502a6cfe9ece91bf3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b3029b70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>u_book_title</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>88249c710ab032505203eef170cf9cc7</update_guid>
+<update_guid_history>88249c710ab032505203eef170cf9cc7:-1099740867</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_1dc9ccfd2b703250212cfdcc6e91bf51</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Book Stage</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_089_lms_book_stage</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1dc9ccfd2b703250212cfdcc6e91bf51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Book Stage</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_app_module_1dc9ccfd2b703250212cfdcc6e91bf51</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><timeline_page/><title>Book Stage</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-448742544</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>4af8c83b2b7c7e502a6cfe9ece91bf3c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bdde0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>1dc9ccfd5c703250c4c3c53778c1c954</update_guid>
+<update_guid_history>1dc9ccfd5c703250c4c3c53778c1c954:-448742544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_year</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_year" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>import_attribute_name=Year</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Year</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_year</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>0dc98cfd2b703250212cfdcc6e91bff6</sys_id><sys_name>Year</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_year</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-345143787</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>4af8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bc050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Year</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d9c9ccfd32703250cf8081271827142d</update_guid>
+<update_guid_history>d9c9ccfd32703250cf8081271827142d:-345143787</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_book_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_book_id" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>import_attribute_name=Book ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Book ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_book_id</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>0dc98cfd2b703250212cfdcc6e91bff4</sys_id><sys_name>Book ID</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_book_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1884886934</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>4ef8c83b2b7c7e502a6cfe9ece91bf3d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bbf10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Book ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>11c9ccfd137032500e77a410a94c522c</update_guid>
+<update_guid_history>11c9ccfd137032500e77a410a94c522c:1884886934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_7cdb04712bb03250212cfdcc6e91bf2e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Book load"&gt;d82bccfd2b703250212cfdcc6e91bf20&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_genre&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_089_lms_book_stage&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-25 11:09:16&lt;/sys_created_on&gt;&lt;sys_id&gt;7cdb04712bb03250212cfdcc6e91bf2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_genre&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_7cdb04712bb03250212cfdcc6e91bf2e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-25 11:09:16&lt;/sys_updated_on&gt;&lt;target_field&gt;genre&lt;/target_field&gt;&lt;target_table&gt;x_089_lms_book&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>308933627</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>82f8c83b2b7c7e502a6cfe9ece91bf3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b0ef4fb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>u_genre</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>34db0471d0b0325028e24511046ee231</update_guid>
+<update_guid_history>34db0471d0b0325028e24511046ee231:308933627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_rating</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_rating" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>import_attribute_name=Rating</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Rating</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_rating</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Decimal">decimal</internal_type><mandatory>false</mandatory><max_length>15</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>85c98cfd2b703250212cfdcc6e91bff9</sys_id><sys_name>Rating</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_rating</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>312236285</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>86f8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bc310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Rating</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>55c9ccfdbc703250e7f2147102e25c31</update_guid>
+<update_guid_history>55c9ccfdbc703250e7f2147102e25c31:312236285</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_author</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_author" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Author</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Author</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_author</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>c9c98cfd2b703250212cfdcc6e91bffa</sys_id><sys_name>Author</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_author</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1876770739</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>8af8c83b2b7c7e502a6cfe9ece91bf3d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bc450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Author</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>11c9ccfdf87032508127a8062698d133</update_guid>
+<update_guid_history>11c9ccfdf87032508127a8062698d133:1876770739</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_u_genre</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_genre" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Genre</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Genre</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_genre</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:17</sys_created_on><sys_id>01c98cfd2b703250212cfdcc6e91bffc</sys_id><sys_name>Genre</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_u_genre</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-31463521</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>c2f8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bc5a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage.Genre</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d9c9ccfd127032507b130f18e44b4534</update_guid>
+<update_guid_history>d9c9ccfd127032507b130f18e44b4534:-31463521</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_089_lms_book_stage_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="x_089_lms_book_stage"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_089_lms_book_stage</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-25 11:00:16</sys_created_on><sys_id>81c98cfd2b703250212cfdcc6e91bfed</sys_id><sys_name>x_089_lms_book_stage</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_dictionary_x_089_lms_book_stage_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-25 11:00:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1645407752</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>c6f8c83b2b7c7e502a6cfe9ece91bf3d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b06bbbd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table>x_089_lms_book_stage</table>
+<target_name>Book Stage</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>95c9ccfd16703250d942245bba5c7e0f</update_guid>
+<update_guid_history>95c9ccfd16703250d942245bba5c7e0f:-1645407752</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_78db4c712bb03250212cfdcc6e91bff6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Book load"&gt;d82bccfd2b703250212cfdcc6e91bf20&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_author&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_089_lms_book_stage&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-25 11:09:16&lt;/sys_created_on&gt;&lt;sys_id&gt;78db4c712bb03250212cfdcc6e91bff6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_author&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_78db4c712bb03250212cfdcc6e91bff6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-25 11:45:50&lt;/sys_updated_on&gt;&lt;target_field&gt;author&lt;/target_field&gt;&lt;target_table&gt;x_089_lms_book&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1920301580</payload_hash>
+<remote_update_set display_value="Chapter 11">46f8c83b2b7c7e502a6cfe9ece91bf3c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-31 16:04:38</sys_created_on>
+<sys_id>cef8c83b2b7c7e502a6cfe9ece91bf3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a1b306f730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-31 16:04:38</sys_updated_on>
+<table/>
+<target_name>u_author</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>6c341479c7b0325064ddef66c9f72f4b</update_guid>
+<update_guid_history>6c341479c7b0325064ddef66c9f72f4b:-1920301580,b8db4c71cab03250b03fba74e81121f7:-1447233705</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

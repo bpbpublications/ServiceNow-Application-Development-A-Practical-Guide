@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>active_book_issue</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Active Book Issue</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    //Query active book issue to the logged-in user
+    var grBookIssueDetail = new GlideRecord('x_089_lms_book_issue_detail'); //name of the book issue table
+    grBookIssueDetail.addQuery('active', true);
+    grBookIssueDetail.addQuery('assigned_to', gs.getUserID());
+    grBookIssueDetail.orderBy('sys_created_on');
+    grBookIssueDetail.query();
+    
+    data.bookIssues = []; //initialise an array in object data
+    while(grBookIssueDetail.next()) {
+        data.bookIssues.push({
+            number: grBookIssueDetail.number.toString(),
+            book: grBookIssueDetail.book.title.toString()
+        });
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-15 11:10:03</sys_created_on>
+        <sys_id>fc6550202b55f6102a6cfe9ece91bf03</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Active Book Issue</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sp_widget_fc6550202b55f6102a6cfe9ece91bf03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-15 11:13:51</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+    <div class="panel-heading">My Active Book Issues</div>
+    <div class="panel-body">
+        <ul class="list-group" ng-if="data.bookIssues.length > 0">
+            <li ng-repeat="issue in data.bookIssues" class="list-group-item">
+                <strong>{{issue.number}}</strong> - {{issue.book}}
+            </li>
+        </ul>
+        <p ng-if="data.bookIssues.length === 0">No active book issues found.</p>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

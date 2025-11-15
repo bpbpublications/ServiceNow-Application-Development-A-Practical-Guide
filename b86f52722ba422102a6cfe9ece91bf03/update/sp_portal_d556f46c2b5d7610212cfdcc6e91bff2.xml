@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="member_home">1957b4ac2b5d7610212cfdcc6e91bf7b</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-15 13:35:40</sys_created_on>
+        <sys_id>d556f46c2b5d7610212cfdcc6e91bff2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Library Management</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sp_portal_d556f46c2b5d7610212cfdcc6e91bff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-15 13:49:45</sys_updated_on>
+        <theme/>
+        <title>Library Management</title>
+        <ts_index_group/>
+        <url_suffix>lms</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=d556f46c2b5d7610212cfdcc6e91bff2"/>
+</record_update>

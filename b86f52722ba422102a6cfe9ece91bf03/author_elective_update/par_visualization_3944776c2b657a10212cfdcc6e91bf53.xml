@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Unpaid fine</name>
+        <properties>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Fine","sourceType":"table","tableOrViewName":"x_089_lms_fine","filterQuery":"paid=false","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzA4OV9sbXNfZmluZTE3NjQzMzcxNDIyMzU=","dataCategories":["trend","group","simple"]}],"componentId":"e4f78pof","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"metrics":[{"dataSource":"dGFibGV4XzA4OV9sbXNfZmluZTE3NjQzMzcxNDIyMzU=","id":"ZEdGaWJHVjRYekE0T1Y5c2JYTmZabWx1WlRFM05qUXpNemN4TkRJeU16VT0xNzY0MzM3MTQ2ODU2","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"amount"}],"headerTitle":"Unpaid fine"}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-28 13:39:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3944776c2b657a10212cfdcc6e91bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unpaid fine</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>par_visualization_3944776c2b657a10212cfdcc6e91bf53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-28 13:39:33</sys_updated_on>
+        <type>Single score</type>
+    </par_visualization>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+        <file_path/>
+        <instance_id>24c58184eb7896505a2dfceacad0cd5c</instance_id>
+        <instance_name>ankushnaskdemo</instance_name>
+        <name>par_visualization_3944776c2b657a10212cfdcc6e91bf53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent><name>Unpaid fine</name><properties>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Fine","sourceType":"table","tableOrViewName":"x_089_lms_fine","filterQuery":"paid=false","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzA4OV9sbXNfZmluZTE3NjQzMzcxNDIyMzU=","dataCategories":["trend","group","simple"]}],"componentId":"e4f78pof","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"metrics":[{"dataSource":"dGFibGV4XzA4OV9sbXNfZmluZTE3NjQzMzcxNDIyMzU=","id":"ZEdGaWJHVjRYekE0T1Y5c2JYTmZabWx1WlRFM05qUXpNemN4TkRJeU16VT0xNzY0MzM3MTQ2ODU2","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"amount"}],"headerTitle":"Unpaid fine"}</properties><requested_by/><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 13:39:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3944776c2b657a10212cfdcc6e91bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unpaid fine</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>par_visualization_3944776c2b657a10212cfdcc6e91bf53</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 13:39:33</sys_updated_on><type>Single score</type></par_visualization></record_update>]]></payload>
+        <payload_hash>1613918548</payload_hash>
+        <record_name>Unpaid fine</record_name>
+        <reverted_from/>
+        <source>6241278a2b153210212cfdcc6e91bf60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-28 13:39:33</sys_created_on>
+        <sys_id>3144776c2b657a10212cfdcc6e91bf56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19acab0c3350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-28 13:39:33</sys_updated_on>
+        <type>PAR Visualization</type>
+        <update_guid>f144776c1f657a10bb71ae5395d72855</update_guid>
+        <update_guid_history>f144776c1f657a10bb71ae5395d72855:1613918548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Unpaid fine">7f85fbac2b657a10212cfdcc6e91bfee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-28 13:45:10</sys_created_on>
+        <sys_db_object display_value="" name="par_visualization">par_visualization</sys_db_object>
+        <sys_id>aad7eafdc42c4fc08a40aa918ba6fd09</sys_id>
+        <sys_metadata>3944776c2b657a10212cfdcc6e91bf53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unpaid fine</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_scope_delete display_value="">3466c1abab414d5489e78e8ac177d210</sys_scope_delete>
+        <sys_update_name>par_visualization_3944776c2b657a10212cfdcc6e91bf53</sys_update_name>
+        <sys_update_version display_value="par_visualization_3944776c2b657a10212cfdcc6e91bf53">3144776c2b657a10212cfdcc6e91bf56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-28 13:45:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,7 +13,7 @@
         <label>Book</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_089_lms_book</name>
-        <number_ref/>
+        <number_ref display_value="BK">fa1e17382b212e102a6cfe9ece91bfac</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

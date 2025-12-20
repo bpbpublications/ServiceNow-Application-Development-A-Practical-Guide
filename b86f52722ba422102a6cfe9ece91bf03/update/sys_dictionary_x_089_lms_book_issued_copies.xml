@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-14 11:17:55</sys_created_on>
-        <sys_id>8cf82fb02b612e102a6cfe9ece91bfcb</sys_id>
         <sys_name>Issued copies</sys_name>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
         <sys_policy/>

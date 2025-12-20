@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">4d9ba348472302108db14cf8536d439a</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 17:15:45</sys_created_on>
+        <sys_id>52fa38052be52e102a6cfe9ece91bf79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 17:15:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

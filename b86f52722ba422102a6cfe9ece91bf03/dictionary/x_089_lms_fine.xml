@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="412a20412ba52e102a6cfe9ece91bfa4" label="Fine" max_length="40" name="x_089_lms_fine" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Issue detail" max_length="32" name="issue_detail" reference="x_089_lms_book_issue_detail" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Paid" max_length="40" name="paid" type="boolean"/>
+        <index name="index">
+            <element name="issue_detail"/>
+        </index>
+    </element>
+</database>

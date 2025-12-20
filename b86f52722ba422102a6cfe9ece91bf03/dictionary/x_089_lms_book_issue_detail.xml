@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a8a708d2ba52e102a6cfe9ece91bf43" extends="task" label="Book Issue Detail" max_length="40" name="x_089_lms_book_issue_detail" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_089_lms_book" type="reference"/>
+    </element>
+</database>

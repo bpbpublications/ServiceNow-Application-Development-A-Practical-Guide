@@ -13,7 +13,7 @@
         <label>Book Issue Detail</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_089_lms_book_issue_detail</name>
-        <number_ref display_value="BOO">defa38052be52e102a6cfe9ece91bf81</number_ref>
+        <number_ref display_value="BID">defa38052be52e102a6cfe9ece91bf81</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85c98cfd2b703250212cfdcc6e91bf2e" extends="sys_import_set_row" label="Book Stage" max_length="40" name="x_089_lms_book_stage" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Genre" label="Genre" max_length="40" name="u_genre" type="string"/>
+        <element attributes="import_attribute_name=Book ID" label="Book ID" max_length="40" name="u_book_id" type="integer"/>
+        <element attributes="import_attribute_name=Year" label="Year" max_length="40" name="u_year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Book Title" label="Book Title" max_length="43" name="u_book_title" type="string"/>
+        <element attributes="import_attribute_name=Rating" label="Rating" max_length="15" name="u_rating" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Author" label="Author" max_length="40" name="u_author" type="string"/>
+    </element>
+</database>

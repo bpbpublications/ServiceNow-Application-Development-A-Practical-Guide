@@ -3,7 +3,7 @@
         <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
         <application_name>Library Management</application_name>
         <bucket_document_id>d556f46c2b5d7610212cfdcc6e91bff2</bucket_document_id>
-        <bucket_metadata>{"HeartbeatInterval":"15000","MaxDataPointsPerHeartbeat":"1000","SessionTimeout":"14400000","IdleTimeout":"1800000","AutoDetectScreens":"true","ClientLogsUploadPolicy":"1","MetadataRecordingRatio":"1","ConfigReloadTime":"86400000","PerformanceDataSamplingRatio":"0.1"}</bucket_metadata>
+        <bucket_metadata>{"PerformanceDataSamplingRatio":"0.1","ConfigReloadTime":"86400000","SessionTimeout":"14400000","HeartbeatInterval":"15000","MetadataRecordingRatio":"1","IdleTimeout":"1800000","ClientLogsUploadPolicy":"1","AutoDetectScreens":"true","MaxDataPointsPerHeartbeat":"1000"}</bucket_metadata>
         <bucket_metadata_customer_override/>
         <bucket_table_name>sp_portal</bucket_table_name>
         <bucket_type>service_portal</bucket_type>

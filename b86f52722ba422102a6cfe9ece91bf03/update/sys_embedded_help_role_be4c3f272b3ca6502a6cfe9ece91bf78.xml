@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_089_lms.librarian" name="x_089_lms.librarian">4c4c7f632b3ca6502a6cfe9ece91bfda</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 18:58:06</sys_created_on>
+        <sys_id>be4c3f272b3ca6502a6cfe9ece91bf78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4c4c7f632b3ca6502a6cfe9ece91bfda</sys_name>
+        <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
+        <sys_update_name>sys_embedded_help_role_be4c3f272b3ca6502a6cfe9ece91bf78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 18:58:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

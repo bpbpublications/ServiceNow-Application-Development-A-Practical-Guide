@@ -7,14 +7,14 @@
         <hint/>
         <name>Library Management System</name>
         <order>100</order>
-        <roles>x_089_lms.librarian</roles>
+        <roles>x_089_lms.member</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-13 17:56:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cdaa77ec2bedaa102a6cfe9ece91bf8f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Library Management System</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
         <sys_update_name>sys_app_application_cdaa77ec2bedaa102a6cfe9ece91bf8f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-14 10:31:06</sys_updated_on>
+        <sys_updated_on>2025-05-30 12:42:03</sys_updated_on>
         <title>Library Management System</title>
         <view_name/>
     </sys_app_application>

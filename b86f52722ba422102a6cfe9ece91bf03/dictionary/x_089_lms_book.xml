@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c16b072c2ba9aa102a6cfe9ece91bf8b" label="Book" max_length="40" name="x_089_lms_book" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Total copies" max_length="40" name="total_copies" type="integer"/>
+        <element choice="1" label="Genre" mandatory="true" max_length="40" name="genre" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Children" sequence="10" value="children"/>
+                <element inactive_on_update="false" label="Self-help" sequence="0" value="Self-help"/>
+                <element inactive_on_update="false" label="Programming/Languages" sequence="0" value="Programming/Languages"/>
+                <element inactive_on_update="false" label="Testing/Programming" sequence="0" value="Testing/Programming"/>
+                <element inactive_on_update="false" label="History/Anthropology" sequence="0" value="History/Anthropology"/>
+                <element inactive_on_update="false" label="Spirituality" sequence="0" value="Spirituality"/>
+                <element inactive_on_update="false" label="Productivity" sequence="0" value="Productivity"/>
+                <element inactive_on_update="false" label="Machine Learning &amp; AI" sequence="0" value="Machine Learning &amp; AI"/>
+                <element inactive_on_update="false" label="Productivity/Business Tools" sequence="0" value="Productivity/Business Tools"/>
+                <element inactive_on_update="false" label="Fiction/Philosophy" sequence="0" value="Fiction/Philosophy"/>
+                <element inactive_on_update="false" label="Psychological Thriller" sequence="0" value="Psychological Thriller"/>
+                <element inactive_on_update="false" label="Comedy" sequence="20" value="comedy"/>
+                <element inactive_on_update="false" label="Memoir" sequence="0" value="Memoir"/>
+                <element inactive_on_update="false" label="Personal Finance" sequence="0" value="Personal Finance"/>
+                <element inactive_on_update="false" label="Programming/Robotics" sequence="0" value="Programming/Robotics"/>
+                <element inactive_on_update="false" label="Cloud &amp; Networking/Certifications" sequence="0" value="Cloud &amp; Networking/Certifications"/>
+                <element inactive_on_update="false" label="History" sequence="30" value="history"/>
+                <element inactive_on_update="false" label="Horror" sequence="40" value="horror"/>
+                <element inactive_on_update="false" label="Biography" sequence="0" value="Biography"/>
+                <element inactive_on_update="false" label="Cloud &amp; Networking" sequence="0" value="Cloud &amp; Networking"/>
+                <element inactive_on_update="false" label="Business &amp; Others/IT Audit" sequence="0" value="Business &amp; Others/IT Audit"/>
+            </choice>
+        </element>
+        <element label="Author" max_length="100" name="author" type="string"/>
+        <element label="Issued copies" max_length="40" name="issued_copies" read_only="true" type="integer"/>
+        <element label="Title" max_length="150" name="title" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;//Available copies is the difference between total copies and issued copies&#13;&#10;&#9;return current.total_copies - current.issued_copies;&#13;&#10;})(current);" label="Available copies" max_length="40" name="available_copies" read_only="true" type="integer" virtual="true"/>
+    </element>
+</database>

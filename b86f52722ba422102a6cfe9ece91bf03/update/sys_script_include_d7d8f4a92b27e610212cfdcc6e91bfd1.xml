@@ -5,7 +5,7 @@
         <api_name>x_089_lms.FineCalculator</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description/>
+        <description>This file scans active book issue detail records past their due date and calculates daily fines (5 per day) for each overdue loan. For each issue, it upserts a corresponding record in Fine table with the calculated amount based on days overdue.</description>
         <mobile_callable>false</mobile_callable>
         <name>FineCalculator</name>
         <sandbox_callable>false</sandbox_callable>
@@ -69,14 +69,14 @@ FineCalculator.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-23 16:29:20</sys_created_on>
         <sys_id>d7d8f4a92b27e610212cfdcc6e91bfd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>FineCalculator</sys_name>
         <sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope>
         <sys_update_name>sys_script_include_d7d8f4a92b27e610212cfdcc6e91bfd1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-23 16:29:20</sys_updated_on>
+        <sys_updated_on>2025-12-20 13:19:18</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>d7d8f4a92b27e610212cfdcc6e91bfd1</id>

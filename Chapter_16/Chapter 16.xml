@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-01-06 14:11:43">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<application_name>Library Management System</application_name>
+<application_scope>x_089_lms</application_scope>
+<application_version>1.1.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Chapter 16</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ea50b0592b1672102a6cfe9ece91bf9c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>81a1bc992b1672102a6cfe9ece91bf52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_f7b45dcb2b867a50212cfdcc6e91bfa8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>string</data_type><default_value/><definition/><description>Response Text</description><group/><hidden>false</hidden><info/><label>response</label><mandatory>false</mandatory><name>response</name><order>100</order><schema/><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f7b45dcb2b867a50212cfdcc6e91bfa8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>response</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_f7b45dcb2b867a50212cfdcc6e91bfa8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><translate>false</translate><truncate>false</truncate><type>output</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=f7b45dcb2b867a50212cfdcc6e91bfa8"/></record_update>]]></payload>
+<payload_hash>269189437</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>01a1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a4340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>response</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>7bb45dcb97867a50e2467d4eb125e7a9</update_guid>
+<update_guid_history>7bb45dcb97867a50e2467d4eb125e7a9:269189437</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_capability_definition_bbb45dcb2b867a50212cfdcc6e91bf83</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_capability_definition"&gt;&lt;sys_one_extend_capability_definition action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;api&gt;936e514a53b3b110f028ddeeff7b128c&lt;/api&gt;&lt;api_type&gt;sys_hub_flow&lt;/api_type&gt;&lt;capability display_value="LMS Demo Skill"&gt;27b4dd8b2b867a50212cfdcc6e91bf63&lt;/capability&gt;&lt;category display_value="Other"&gt;04c489f3532121106b38ddeeff7b1215&lt;/category&gt;&lt;connection/&gt;&lt;description/&gt;&lt;filter_properties&gt;{"provider":"Now LLM GenericNow LLM Generic"}&lt;/filter_properties&gt;&lt;metadata/&gt;&lt;name&gt;LMS Demo Skill&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;postprocessor&gt;&lt;![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]&gt;&lt;/postprocessor&gt;&lt;preprocessor&gt;&lt;![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]&gt;&lt;/preprocessor&gt;&lt;sys_class_name&gt;sys_one_extend_capability_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-30 16:58:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bbb45dcb2b867a50212cfdcc6e91bf83&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LMS Demo Skill&lt;/sys_name&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_capability_definition_bbb45dcb2b867a50212cfdcc6e91bf83&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-30 16:58:45&lt;/sys_updated_on&gt;&lt;truncate_strategy display_value="Default Truncation Strategy"&gt;2b99e1137fb20210f465c3b76d86650d&lt;/truncate_strategy&gt;&lt;/sys_one_extend_capability_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bbb45dcb2b867a50212cfdcc6e91bf83"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-648229114</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>05a1bc992b1672102a6cfe9ece91bf54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a3230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>LMS Demo Skill</target_name>
+<type>OneExtend Capability Definition</type>
+<update_domain>global</update_domain>
+<update_guid>7bb45dcb43867a5075abda9d5f216095</update_guid>
+<update_guid_history>7bb45dcb43867a5075abda9d5f216095:-648229114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_generative_ai_prompt_config_bfb45dcb2b867a50212cfdcc6e91bf9b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config"><sys_generative_ai_prompt_config action="INSERT_OR_UPDATE"><ai_config display_value="OneExtend Capability Definition: LMS Demo Skill">3bb45dcb2b867a50212cfdcc6e91bf9a</ai_config><definition display_value="LMS Demo Skill">bbb45dcb2b867a50212cfdcc6e91bf83</definition><filter_properties>{}</filter_properties><filter_type>default</filter_type><is_default>true</is_default><order>0</order><sys_class_name>sys_generative_ai_prompt_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bfb45dcb2b867a50212cfdcc6e91bf9b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>3bb45dcb2b867a50212cfdcc6e91bf9a</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_generative_ai_prompt_config_bfb45dcb2b867a50212cfdcc6e91bf9b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:02:13</sys_updated_on></sys_generative_ai_prompt_config></record_update>]]></payload>
+<payload_hash>1095402087</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>09a1bc992b1672102a6cfe9ece91bf53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b741296b00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>3bb45dcb2b867a50212cfdcc6e91bf9a</target_name>
+<type>Generative AI Prompt Config</type>
+<update_domain>global</update_domain>
+<update_guid>f6bccd53cb4a729081b1b0d8f6e078d2</update_guid>
+<update_guid_history>f6bccd53cb4a729081b1b0d8f6e078d2:1095402087,fbb45dcbd2867a50b23d99a237a0289d:-775453049</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_eval_attribute_7fb45dcb2b867a50212cfdcc6e91bfaa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_eval_attribute"&gt;&lt;sys_one_extend_eval_attribute action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;capability display_value="LMS Demo Skill"&gt;27b4dd8b2b867a50212cfdcc6e91bf63&lt;/capability&gt;&lt;capability_attribute display_value="response"&gt;f7b45dcb2b867a50212cfdcc6e91bfa8&lt;/capability_attribute&gt;&lt;data_type&gt;string&lt;/data_type&gt;&lt;label&gt;Golden Response&lt;/label&gt;&lt;name&gt;response&lt;/name&gt;&lt;sys_class_name&gt;sys_one_extend_eval_attribute&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-30 16:58:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7fb45dcb2b867a50212cfdcc6e91bfaa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Golden Response&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_eval_attribute_7fb45dcb2b867a50212cfdcc6e91bfaa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-30 16:58:45&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;template_script&gt;&lt;![CDATA[(function getValue(response) {
+   // response would give the response from capability 
+})(response);]]&gt;&lt;/template_script&gt;&lt;/sys_one_extend_eval_attribute&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1194803184</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>1da1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a45b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>Golden Response</target_name>
+<type>OneExtend Eval Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>fbb45dcbeb867a5013416869dbe014ac</update_guid>
+<update_guid_history>fbb45dcbeb867a5013416869dbe014ac:-1194803184</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_capability_27b4dd8b2b867a50212cfdcc6e91bf63</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability"><sys_one_extend_capability action="INSERT_OR_UPDATE"><active>true</active><description>Summarization of an incident</description><external>true</external><metadata>{}</metadata><name>LMS Demo Skill</name><short_description/><sys_class_name>sys_one_extend_capability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27b4dd8b2b867a50212cfdcc6e91bf63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LMS Demo Skill</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_capability_27b4dd8b2b867a50212cfdcc6e91bf63</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:44</sys_updated_on><type>skill</type></sys_one_extend_capability><sys_translated_text action="delete_multiple" query="documentkey=27b4dd8b2b867a50212cfdcc6e91bf63"/></record_update>]]></payload>
+<payload_hash>-1968019948</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>41a1bc992b1672102a6cfe9ece91bf54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a0a60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>LMS Demo Skill</target_name>
+<type>OneExtend Capability</type>
+<update_domain>global</update_domain>
+<update_guid>2fb45dcb34867a50d97a529b36c49e7c</update_guid>
+<update_guid_history>2fb45dcb34867a50d97a529b36c49e7c:-1968019948</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_generative_ai_config_3bb45dcb2b867a50212cfdcc6e91bf9a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config"><sys_generative_ai_config action="INSERT_OR_UPDATE"><active>true</active><additional_configurations>{}</additional_configurations><ai_suggested>false</ai_suggested><definition>bbb45dcb2b867a50212cfdcc6e91bf83</definition><definition_table>sys_one_extend_capability_definition</definition_table><max_tokens>1000</max_tokens><min_word_count>-1</min_word_count><model>llm_generic</model><name>Prompt name</name><parent/><prompt>You are a customer service representative. Summarize the below incident in no more than 250 words.
+The summary should only contain two sections "Issue" and "Priority".
+You are optionally given the following details from the incident:
+Incident SHORT_DESCRIPTION: {{incident.short_description}}
+Incident DESCRIPTION: {{incident.description}}
+Incident PRIORITY: {{incident.priority}}</prompt><prompt_template_role>user</prompt_template_role><request_tokens>6942</request_tokens><show_in_prompt_library>false</show_in_prompt_library><state>published</state><sys_class_name>sys_generative_ai_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3bb45dcb2b867a50212cfdcc6e91bf9a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>bbb45dcb2b867a50212cfdcc6e91bf83</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_generative_ai_config_3bb45dcb2b867a50212cfdcc6e91bf9a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:19:44</sys_updated_on><temperature>0.2</temperature><version>1</version></sys_generative_ai_config></record_update>]]></payload>
+<payload_hash>-409124752</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>45a1bc992b1672102a6cfe9ece91bf53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b74229e680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>bbb45dcb2b867a50212cfdcc6e91bf83</target_name>
+<type>Generative AI Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>93b05d97484a7290c4859ab03e5b55aa</update_guid>
+<update_guid_history>93b05d97484a7290c4859ab03e5b55aa:-409124752,ca60d5973f4a72906e272b88b73e11c2:215144359,abcc499bf60a72900e8b9b875f51736b:1976819394,7bb45dcb58867a50bf1f5236f44bc79f:1223058312</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_f3b45dcb2b867a50212cfdcc6e91bfa6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>string</data_type><default_value/><definition/><description>Provider name</description><group/><hidden>false</hidden><info/><label>provider</label><mandatory>false</mandatory><name>provider</name><order>100</order><schema/><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f3b45dcb2b867a50212cfdcc6e91bfa6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>provider</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_f3b45dcb2b867a50212cfdcc6e91bfa6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><translate>false</translate><truncate>false</truncate><type>output</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=f3b45dcb2b867a50212cfdcc6e91bfa6"/></record_update>]]></payload>
+<payload_hash>1181515455</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>4da1bc992b1672102a6cfe9ece91bf54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a41c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>provider</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>77b45dcb2c867a5001c045790e842ca7</update_guid>
+<update_guid_history>77b45dcb2c867a5001c045790e842ca7:1181515455</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_config_b3b45dcb2b867a50212cfdcc6e91bf85</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_config"><sys_one_extend_definition_config action="INSERT_OR_UPDATE"><active>true</active><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><default>true</default><definition display_value="LMS Demo Skill">bbb45dcb2b867a50212cfdcc6e91bf83</definition><enable_large_input_support>false</enable_large_input_support><sys_class_name>sys_one_extend_definition_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b3b45dcb2b867a50212cfdcc6e91bf85</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_config_b3b45dcb2b867a50212cfdcc6e91bf85</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on></sys_one_extend_definition_config></record_update>]]></payload>
+<payload_hash>-240365342</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>59a1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a3570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name/>
+<type>OneExtend Definition Config</type>
+<update_domain>global</update_domain>
+<update_guid>fbb45dcb7f867a5023c4f83f6fa23098</update_guid>
+<update_guid_history>fbb45dcb7f867a5023c4f83f6fa23098:-240365342,bfb45dcb45867a5082a0a736a0a86a86:727036793</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sn_nowassist_skill_family_5a7ec5932b4a72902a6cfe9ece91bf2f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_nowassist_skill_family"><sn_nowassist_skill_family action="INSERT_OR_UPDATE"><category>custom</category><description/><image_url>images/custom-feature-image.svg</image_url><name>LMS Demo</name><order>100</order><parent display_value="ITSM">1ebe4cd7a320311079f66bcf26fcda0f</parent><preview_image>images/custom-feature-background-image.svg</preview_image><sub_title/><sys_class_name>sn_nowassist_skill_family</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:09:49</sys_created_on><sys_id>5a7ec5932b4a72902a6cfe9ece91bf2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LMS Demo</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sn_nowassist_skill_family_5a7ec5932b4a72902a6cfe9ece91bf2f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:09:49</sys_updated_on><type>feature</type></sn_nowassist_skill_family><sys_translated_text action="delete_multiple" query="documentkey=5a7ec5932b4a72902a6cfe9ece91bf2f"/></record_update>]]></payload>
+<payload_hash>816759234</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>81a1bc992b1672102a6cfe9ece91bf53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b74198c210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>LMS Demo</target_name>
+<type>Now Assist Skill Family</type>
+<update_domain>global</update_domain>
+<update_guid>967e0117d34a72903c686564e0e572f1</update_guid>
+<update_guid_history>967e0117d34a72903c686564e0e572f1:816759234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_8645091b2b0a72902a6cfe9ece91bffc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>glide_record</data_type><default_value/><definition/><description/><group/><hidden>false</hidden><info/><label>Incident</label><mandatory>true</mandatory><name>incident</name><order>100</order><schema>{"tableName":"incident","sysId":""}</schema><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 10:29:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8645091b2b0a72902a6cfe9ece91bffc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_8645091b2b0a72902a6cfe9ece91bffc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 10:29:40</sys_updated_on><translate>false</translate><truncate>false</truncate><type>input</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=8645091b2b0a72902a6cfe9ece91bffc"/></record_update>]]></payload>
+<payload_hash>1816751700</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>89a1bc992b1672102a6cfe9ece91bf54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b73f4c7ff0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>incident</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>ce45c55ba60a7290fbf021f7c65f0cd2</update_guid>
+<update_guid_history>ce45c55ba60a7290fbf021f7c65f0cd2:1816751700</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_gen_ai_strategy_mapping_3fb45dcb2b867a50212cfdcc6e91bf80</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_strategy_mapping"><sys_gen_ai_strategy_mapping action="INSERT_OR_UPDATE"><active>true</active><feature display_value="LMS Demo Skill">a3b45dcb2b867a50212cfdcc6e91bf7e</feature><strategy>CAPABILITY_EXECUTION</strategy><sys_class_name>sys_gen_ai_strategy_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fb45dcb2b867a50212cfdcc6e91bf80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAPABILITY_EXECUTION</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_gen_ai_strategy_mapping_3fb45dcb2b867a50212cfdcc6e91bf80</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on></sys_gen_ai_strategy_mapping></record_update>]]></payload>
+<payload_hash>-902383996</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>8da1bc992b1672102a6cfe9ece91bf53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a1f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>CAPABILITY_EXECUTION</target_name>
+<type>Generative AI Strategy Mapping</type>
+<update_domain>global</update_domain>
+<update_guid>37b45dcbda867a505f2a2e91ef033982</update_guid>
+<update_guid_history>37b45dcbda867a505f2a2e91ef033982:-902383996</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ux_form_action_0e1fc1172b4a72902a6cfe9ece91bf26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action"><sys_ux_form_action action="INSERT_OR_UPDATE"><action_type>ui_action</action_type><active>true</active><declarative_action/><description/><name>LMS Demo Skill</name><specificity>20</specificity><sys_class_name>sys_ux_form_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:12:33</sys_created_on><sys_id>0e1fc1172b4a72902a6cfe9ece91bf26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LMS Demo Skill</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_ux_form_action_0e1fc1172b4a72902a6cfe9ece91bf26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:12:33</sys_updated_on><table>incident</table><ui_action display_value="LMS Demo Skill">0e1fc1172b4a72902a6cfe9ece91bf21</ui_action></sys_ux_form_action><sys_translated_text action="delete_multiple" query="documentkey=0e1fc1172b4a72902a6cfe9ece91bf26"/></record_update>]]></payload>
+<payload_hash>-1876537112</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>91a1bc992b1672102a6cfe9ece91bf56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b741c09900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table>incident</table>
+<target_name>LMS Demo Skill</target_name>
+<type>UX Form Actions</type>
+<update_domain>global</update_domain>
+<update_guid>4a1fc117704a72903bcb85be4fc72428</update_guid>
+<update_guid_history>4a1fc117704a72903bcb85be4fc72428:-1876537112</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_ffb45dcb2b867a50212cfdcc6e91bfad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>string</data_type><default_value/><definition/><description>Status</description><group/><hidden>false</hidden><info/><label>status</label><mandatory>false</mandatory><name>status</name><order>100</order><schema/><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ffb45dcb2b867a50212cfdcc6e91bfad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_ffb45dcb2b867a50212cfdcc6e91bfad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><translate>false</translate><truncate>false</truncate><type>output</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=ffb45dcb2b867a50212cfdcc6e91bfad"/></record_update>]]></payload>
+<payload_hash>1048566168</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>95a1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a4740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>status</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>73b45dcbcb867a50ae8459420eb0ffaf</update_guid>
+<update_guid_history>73b45dcbcb867a50ae8459420eb0ffaf:1048566168</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_ffb45dcb2b867a50212cfdcc6e91bfa3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>string</data_type><default_value/><definition/><description>Error Code</description><group/><hidden>false</hidden><info/><label>errorCode</label><mandatory>false</mandatory><name>errorcode</name><order>100</order><schema/><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ffb45dcb2b867a50212cfdcc6e91bfa3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>errorcode</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_ffb45dcb2b867a50212cfdcc6e91bfa3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><translate>false</translate><truncate>false</truncate><type>output</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=ffb45dcb2b867a50212cfdcc6e91bfa3"/></record_update>]]></payload>
+<payload_hash>188492756</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>c1a1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a4030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>errorcode</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>73b45dcbc5867a50c493da3e1e8903a5</update_guid>
+<update_guid_history>73b45dcbc5867a50c493da3e1e8903a5:188492756</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sn_nowassist_skill_config_b7b45dcb2b867a50212cfdcc6e91bfb0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_nowassist_skill_config"&gt;&lt;sn_nowassist_skill_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;description&gt;&lt;![CDATA[Summarization of an incident]]&gt;&lt;/description&gt;&lt;in_product_active&gt;false&lt;/in_product_active&gt;&lt;in_product_roles/&gt;&lt;is_template&gt;false&lt;/is_template&gt;&lt;name&gt;LMS Demo Skill&lt;/name&gt;&lt;nap_skill_applicability/&gt;&lt;order&gt;100&lt;/order&gt;&lt;parent/&gt;&lt;skill_family display_value="LMS Demo"&gt;5a7ec5932b4a72902a6cfe9ece91bf2f&lt;/skill_family&gt;&lt;skill_id&gt;27b4dd8b2b867a50212cfdcc6e91bf63&lt;/skill_id&gt;&lt;skill_table&gt;sys_one_extend_capability&lt;/skill_table&gt;&lt;state&gt;1&lt;/state&gt;&lt;success_message/&gt;&lt;sys_class_name&gt;sn_nowassist_skill_config&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-30 16:58:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b7b45dcb2b867a50212cfdcc6e91bfb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LMS Demo Skill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_nowassist_skill_config_b7b45dcb2b867a50212cfdcc6e91bfb0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-31 11:19:44&lt;/sys_updated_on&gt;&lt;/sn_nowassist_skill_config&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b7b45dcb2b867a50212cfdcc6e91bfb0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-421575473</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>c5a1bc992b1672102a6cfe9ece91bf52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b74229ea10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>LMS Demo Skill</target_name>
+<type>Now Assist Skill Config</type>
+<update_domain>global</update_domain>
+<update_guid>dbb09d97244a729096f07aa596c8d65c</update_guid>
+<update_guid_history>dbb09d97244a729096f07aa596c8d65c:-421575473,1e7e0117c14a7290f76c5c25fe59c0f5:-440002226,7bb45dcb5b867a50aed0d9d02ed6c3b2:-1621145644</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_one_extend_definition_attribute_33b45dcb2b867a50212cfdcc6e91bfa1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="LMS Demo Skill">27b4dd8b2b867a50212cfdcc6e91bf63</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>string</data_type><default_value/><definition/><description>Error Message</description><group/><hidden>false</hidden><info/><label>error</label><mandatory>false</mandatory><name>error</name><order>100</order><schema/><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>33b45dcb2b867a50212cfdcc6e91bfa1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>error</sys_name><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_one_extend_definition_attribute_33b45dcb2b867a50212cfdcc6e91bfa1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><translate>false</translate><truncate>false</truncate><type>output</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=33b45dcb2b867a50212cfdcc6e91bfa1"/></record_update>]]></payload>
+<payload_hash>12438339</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>c5a1bc992b1672102a6cfe9ece91bf54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a3e80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>error</target_name>
+<type>OneExtend Capability Attribute</type>
+<update_domain>global</update_domain>
+<update_guid>fbb45dcb4d867a50b1ff5f4eaa9018a2</update_guid>
+<update_guid_history>fbb45dcb4d867a50b1ff5f4eaa9018a2:12438339</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_gen_ai_feature_mapping_a3b45dcb2b867a50212cfdcc6e91bf7e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_feature_mapping"><sys_gen_ai_feature_mapping action="INSERT_OR_UPDATE"><active>true</active><customer_updatable>true</customer_updatable><default_tier>false</default_tier><document>27b4dd8b2b867a50212cfdcc6e91bf63</document><document_table>sys_one_extend_capability</document_table><feature_name>LMS Demo Skill</feature_name><licensable>true</licensable><metadata/><skip_on_group_call>false</skip_on_group_call><sys_class_name>sys_gen_ai_feature_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-30 16:58:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3b45dcb2b867a50212cfdcc6e91bf7e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LMS Demo Skill</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sys_gen_ai_feature_mapping_a3b45dcb2b867a50212cfdcc6e91bf7e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-30 16:58:45</sys_updated_on><tier/></sys_gen_ai_feature_mapping></record_update>]]></payload>
+<payload_hash>1880392491</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>c9a1bc992b1672102a6cfe9ece91bf53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b7032a1c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>LMS Demo Skill</target_name>
+<type>Generative AI Feature Mapping</type>
+<update_domain>global</update_domain>
+<update_guid>3bb45dcb41867a5045264bfa45adb87f</update_guid>
+<update_guid_history>3bb45dcb41867a5045264bfa45adb87f:1880392491</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sn_nowassist_skill_config_var_set_821fc1172b4a72902a6cfe9ece91bf2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set"><sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE"><config_type display_value="Skill builder Delivery step">7dfdff5893b64210aa5730f164891837</config_type><description/><hide_step>false</hide_step><name>__delivery_step__</name><order>100</order><parent/><screen_id/><screen_table>sys_ux_macroponent</screen_table><skill_config display_value="LMS Demo Skill">b7b45dcb2b867a50212cfdcc6e91bfb0</skill_config><step_completed>false</step_completed><sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:12:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>821fc1172b4a72902a6cfe9ece91bf2a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>__delivery_step__</sys_name><sys_overrides/><sys_package display_value="Library Management System" source="x_089_lms">b86f52722ba422102a6cfe9ece91bf03</sys_package><sys_policy/><sys_scope display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</sys_scope><sys_update_name>sn_nowassist_skill_config_var_set_821fc1172b4a72902a6cfe9ece91bf2a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:12:33</sys_updated_on><title/><vars/></sn_nowassist_skill_config_var_set><sys_translated_text action="delete_multiple" query="documentkey=821fc1172b4a72902a6cfe9ece91bf2a"/><sys_variable_value action="delete_multiple" query="document_key=821fc1172b4a72902a6cfe9ece91bf2a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sn_nowassist_skill_config_var_set</document><document_key>821fc1172b4a72902a6cfe9ece91bf2a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:12:33</sys_created_on><sys_id>421f0d172b4a72902a6cfe9ece91bf99</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:12:33</sys_updated_on><value>0</value><variable display_value="Enable NAP">ab5ef79893b64210aa5730f16489185a</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sn_nowassist_skill_config_var_set</document><document_key>821fc1172b4a72902a6cfe9ece91bf2a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:12:33</sys_created_on><sys_id>8e1f0d172b4a72902a6cfe9ece91bf98</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:12:33</sys_updated_on><value>0e1fc1172b4a72902a6cfe9ece91bf21</value><variable display_value="UI Action Id">4fee37d893b64210aa5730f164891896</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sn_nowassist_skill_config_var_set</document><document_key>821fc1172b4a72902a6cfe9ece91bf2a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-31 11:12:33</sys_created_on><sys_id>c61fc1172b4a72902a6cfe9ece91bf2b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-31 11:12:33</sys_updated_on><value>1</value><variable display_value="Enable UI Action">f09e3f9893b64210aa5730f16489189f</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-640458556</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>cda1bc992b1672102a6cfe9ece91bf52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b741c09fc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table/>
+<target_name>__delivery_step__</target_name>
+<type>Now Assist Skill Config Var Set</type>
+<update_domain>global</update_domain>
+<update_guid>ce1f0d17cc4a7290a1098ef16176fd9a</update_guid>
+<update_guid_history>ce1f0d17cc4a7290a1098ef16176fd9a:-640458556</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Library Management System">b86f52722ba422102a6cfe9ece91bf03</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_0e1fc1172b4a72902a6cfe9ece91bf21</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2/&gt;&lt;comments/&gt;&lt;condition&gt;new sn_nowassist_admin.NowAssistSkillConfig().isSkillConfigurationActive('b7b45dcb2b867a50212cfdcc6e91bfb0')&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;LMS Demo Skill&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var inputsPayload = {};
+// incident is a input of type: glide_record
+inputsPayload['incident'] = {
+  tableName: 'incident',
+  sysId: current.getValue('sys_id'),
+  queryString: ''
+};
+
+var request = {
+	executionRequests: [{
+		payload: inputsPayload,
+		capabilityId: '27b4dd8b2b867a50212cfdcc6e91bf63',
+		meta: {
+			skillConfigId: 'b7b45dcb2b867a50212cfdcc6e91bfb0'
+		}
+	}], 
+	mode: 'sync' 
+};
+
+try {
+	gs.addInfoMessage(JSON.stringify(sn_one_extend.OneExtendUtil.execute(request)));
+} catch(e) {
+	gs.error(e);
+	gs.addErrorMessage('Something went wrong while executing skill.');
+}
+action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-31 11:12:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0e1fc1172b4a72902a6cfe9ece91bf21&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LMS Demo Skill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management System" source="x_089_lms"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management System"&gt;b86f52722ba422102a6cfe9ece91bf03&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_0e1fc1172b4a72902a6cfe9ece91bf21&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-31 11:12:33&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-26449822</payload_hash>
+<remote_update_set display_value="Chapter 16">81a1bc992b1672102a6cfe9ece91bf52</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-01-06 14:11:42</sys_created_on>
+<sys_id>dda1bc992b1672102a6cfe9ece91bf55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19b741c09610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-01-06 14:11:42</sys_updated_on>
+<table>incident</table>
+<target_name>LMS Demo Skill</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>c61fc117f44a7290556a98f79812f725</update_guid>
+<update_guid_history>c61fc117f44a7290556a98f79812f725:-26449822</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
